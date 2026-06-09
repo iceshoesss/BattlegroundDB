@@ -24,6 +24,9 @@ jobs:
       - name: Build BattlegroundDB.dll
         run: dotnet build BattlegroundDB/BattlegroundDB.csproj -c Release
       
+      - name: Install Wrangler
+        run: npm install -g wrangler
+      
       - name: Get version from bg_cards.json
         id: version
         shell: pwsh
