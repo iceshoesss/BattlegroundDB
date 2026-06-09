@@ -1,0 +1,17 @@
+{
+  "name": "bgdb-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for BattlegroundDB.dll distribution",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "upload": "powershell ./upload.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

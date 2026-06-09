@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Node
+node_modules/
+
+# Cloudflare
+.wrangler/
+
+# HsbgFetcher build
+HsbgFetcher/bin/
+HsbgFetcher/obj/
+
+# Old data files (replaced by bg_cards.json)
+BattlegroundDB/Data/bg_anomalies.json
+BattlegroundDB/Data/bg_buddies.json
+BattlegroundDB/Data/bg_heroes.json
+BattlegroundDB/Data/bg_minions.json
+BattlegroundDB/Data/bg_quests.json
+BattlegroundDB/Data/bg_trinkets.json
+
+# OpenCode
+omo/
+omo/
+.opencode/
