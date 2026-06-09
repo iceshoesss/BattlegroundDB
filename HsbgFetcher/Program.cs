@@ -182,11 +182,14 @@ class Program
         var id = card.ExternalId;
         if (string.IsNullOrEmpty(id)) return false;
 
-        // t 结尾 或 t+数字 结尾（如 BG28_603t, BG27_004t2）
+        // 1. t 结尾 或 t+数字 结尾（如 BG28_603t, BG27_004t2）
         if (Regex.IsMatch(id, @"t\d*$")) return true;
 
-        // pt 结尾 或 pt+数字 结尾（如 BG23_HERO_201pt）
+        // 2. pt 结尾 或 pt+数字 结尾（如 BG23_HERO_201pt）
         if (Regex.IsMatch(id, @"pt\d*$")) return true;
+
+        // 3. 包含 SKIN（皮肤变体，如 TB_BaconShop_HP_033t_SKIN_D）
+        if (id.Contains("SKIN")) return true;
 
         return false;
     }

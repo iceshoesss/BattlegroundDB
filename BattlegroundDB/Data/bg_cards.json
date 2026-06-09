@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "35.6",
-    "fetchedAt": "2026-06-09T14:41:16.127Z",
+    "fetchedAt": "2026-06-09T14:44:19.757Z",
     "totalCards": 1372
   },
   "cards": [
@@ -29,7 +29,7 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [],
-      "isToken": false,
+      "isToken": true,
       "isBuddy": false
     },
     {
@@ -229,7 +229,7 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [],
-      "isToken": false,
+      "isToken": true,
       "isBuddy": false
     },
     {
@@ -284,7 +284,7 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [],
-      "isToken": false,
+      "isToken": true,
       "isBuddy": false
     },
     {
@@ -451,7 +451,7 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [],
-      "isToken": false,
+      "isToken": true,
       "isBuddy": false
     },
     {
@@ -1058,7 +1058,7 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [],
-      "isToken": false,
+      "isToken": true,
       "isBuddy": false
     },
     {
