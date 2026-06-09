@@ -26,10 +26,7 @@ jobs:
       - name: Build BattlegroundDB.dll
         run: dotnet build BattlegroundDB/BattlegroundDB.csproj -c Release
       
-      - name: Install Wrangler
-        run: npm install -g wrangler
-      
-      - name: Get version from bg_cards.json
+      - name: Get version and check if new
         id: version
         shell: pwsh
         run: |
@@ -37,8 +34,23 @@ jobs:
           $version = $json.meta.version
           echo "VERSION=$version" >> $env:GITHUB_OUTPUT
           Write-Host "Current version: $version"
+          
+          # 检查是否已存在该版本的 Release
+          $release = gh release list --json tagName --jq ".[].tagName" | Select-String "v$version"
+          if ($release) {
+            echo "NEW_VERSION=false" >> $env:GITHUB_OUTPUT
+            Write-Host "Release v$version already exists, skipping deploy"
+          } else {
+            echo "NEW_VERSION=true" >> $env:GITHUB_OUTPUT
+            Write-Host "New version detected: $version"
+          }
+      
+      - name: Install Wrangler
+        if: steps.version.outputs.NEW_VERSION == 'true'
+        run: npm install -g wrangler
       
       - name: Upload DLL to Cloudflare KV
+        if: steps.version.outputs.NEW_VERSION == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
@@ -46,6 +58,7 @@ jobs:
           wrangler kv key put --binding=BGDB_KV "dll/${{ steps.version.outputs.VERSION }}" --path="../BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll" --remote
       
       - name: Update version and deploy Worker
+        if: steps.version.outputs.NEW_VERSION == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         shell: pwsh
@@ -56,13 +69,8 @@ jobs:
           cd CloudflareBgdb
           wrangler deploy
       
-      - name: Verify deployment
-        shell: pwsh
-        run: |
-          $response = Invoke-RestMethod -Uri "https://api.iceshoes.dpdns.org/version"
-          Write-Host "Deployed version: $($response.version)"
-      
       - name: Create GitHub Release
+        if: steps.version.outputs.NEW_VERSION == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
