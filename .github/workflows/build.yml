@@ -1,0 +1,58 @@
+name: Build and Deploy BattlegroundDB
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 每天 UTC 10:00 (北京时间 18:00)
+  workflow_dispatch:       # 手动触发
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      
+      - name: Fetch card data from hsbg.cards
+        run: dotnet run --project HsbgFetcher
+      
+      - name: Build BattlegroundDB.dll
+        run: dotnet build BattlegroundDB/BattlegroundDB.csproj -c Release
+      
+      - name: Get version from bg_cards.json
+        id: version
+        shell: pwsh
+        run: |
+          $json = Get-Content BattlegroundDB/Data/bg_cards.json | ConvertFrom-Json
+          $version = $json.meta.version
+          echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+          Write-Host "Current version: $version"
+      
+      - name: Upload DLL to Cloudflare KV
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          cd CloudflareBgdb
+          wrangler kv key put --binding=BGDB_KV "dll/${{ steps.version.outputs.VERSION }}" --path="../BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll" --remote
+      
+      - name: Update version and deploy Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        shell: pwsh
+        run: |
+          $version = "${{ steps.version.outputs.VERSION }}"
+          $tomlPath = "CloudflareBgdb/wrangler.toml"
+          (Get-Content $tomlPath) -replace 'BGDB_VERSION = ".*"', "BGDB_VERSION = `"$version`"" | Set-Content $tomlPath
+          cd CloudflareBgdb
+          wrangler deploy
+      
+      - name: Verify deployment
+        shell: pwsh
+        run: |
+          $response = Invoke-RestMethod -Uri "https://api.iceshoes.dpdns.org/version"
+          Write-Host "Deployed version: $($response.version)"
