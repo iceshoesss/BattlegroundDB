@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace HsbgFetcher;
@@ -148,7 +149,9 @@ class Program
                 Pool = card.Pool,
                 ChildIds = card.ChildIds ?? new List<int>(),
                 TrinketTier = card.TrinketTier,
-                CompanionId = card.CompanionId
+                CompanionId = card.CompanionId,
+                IsToken = IsTokenCard(card),
+                IsBuddy = card.ExternalId?.EndsWith("_Buddy") == true
             };
 
             result.Cards.Add(bgdbCard);
@@ -169,6 +172,23 @@ class Program
 
         var json = JsonSerializer.Serialize(data, options);
         File.WriteAllText(path, json);
+    }
+
+    static bool IsTokenCard(HsbgCard card)
+    {
+        // 只有 minion 类型才可能是衍生物
+        if (card.CardType != "minion") return false;
+
+        var id = card.ExternalId;
+        if (string.IsNullOrEmpty(id)) return false;
+
+        // t 结尾 或 t+数字 结尾（如 BG28_603t, BG27_004t2）
+        if (Regex.IsMatch(id, @"t\d*$")) return true;
+
+        // pt 结尾 或 pt+数字 结尾（如 BG23_HERO_201pt）
+        if (Regex.IsMatch(id, @"pt\d*$")) return true;
+
+        return false;
     }
 }
 
@@ -365,4 +385,10 @@ public class BgdbCard
 
     [JsonPropertyName("companionId")]
     public int? CompanionId { get; set; }
+
+    [JsonPropertyName("isToken")]
+    public bool IsToken { get; set; }
+
+    [JsonPropertyName("isBuddy")]
+    public bool IsBuddy { get; set; }
 }

@@ -101,6 +101,12 @@ namespace BattlegroundDB
         [JsonProperty("companionId")]
         public int? CompanionId { get; set; }
 
+        [JsonProperty("isToken")]
+        public bool IsToken { get; set; }
+
+        [JsonProperty("isBuddy")]
+        public bool IsBuddy { get; set; }
+
         // === 便捷属性 ===
 
         /// <summary>是否为随从</summary>
