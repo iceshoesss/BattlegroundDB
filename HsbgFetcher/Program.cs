@@ -129,11 +129,11 @@ class Program
             var bgdbCard = new BgdbCard
             {
                 Id = card.Id,
-                CardId = card.ExternalId,
-                Name = card.Name,
-                NameZh = zhCnMap.GetValueOrDefault(card.ExternalId, ""),
+                CardId = card.ExternalId ?? "",
+                Name = card.Name ?? "",
+                NameZh = zhCnMap.GetValueOrDefault(card.ExternalId ?? "", ""),
                 Tier = card.Tier,
-                CardType = card.CardType,
+                CardType = card.CardType ?? "",
                 MinionType = card.MinionType,
                 MinionTypes = card.MinionTypes,
                 Attack = card.Attack,
