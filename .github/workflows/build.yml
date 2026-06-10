@@ -53,9 +53,15 @@ jobs:
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        shell: pwsh
         run: |
           cd CloudflareBgdb
           wrangler kv key put --binding=BGDB_KV "dll/${{ steps.version.outputs.VERSION }}" --path="../BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll" --remote
+          
+          # 设置更新时间
+          $updatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
+          wrangler kv key put --binding=BGDB_KV "updatedAt" "$updatedAt" --remote
+          Write-Host "Updated at: $updatedAt"
       
       - name: Update version and deploy Worker
         if: steps.version.outputs.NEW_VERSION == 'true'

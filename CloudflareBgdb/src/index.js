@@ -47,14 +47,18 @@ export default {
 /**
  * 处理版本信息请求
  */
-function handleVersion(env, headers) {
+async function handleVersion(env, headers) {
   const version = env.BGDB_VERSION || '2.0.0';
   const filename = env.BGDB_FILENAME || 'BattlegroundDB.dll';
+  
+  // 从 KV 获取更新时间
+  const updatedAt = await env.BGDB_KV?.get('updatedAt') || null;
   
   const response = {
     version: version,
     filename: filename,
     downloadUrl: `/download`,
+    updatedAt: updatedAt,
   };
 
   return new Response(JSON.stringify(response, null, 2), {
