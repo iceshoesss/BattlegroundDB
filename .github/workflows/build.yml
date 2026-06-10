@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 19 * * *'  # 每天 UTC 19:00 (北京时间 03:00)
   workflow_dispatch:       # 手动触发
+    inputs:
+      force:
+        description: '强制部署（忽略版本检查）'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   build:
@@ -38,13 +44,14 @@ jobs:
           Write-Host "Current version: $version"
           
           # 检查是否已存在该版本的 Release
+          $force = "${{ github.event.inputs.force }}"
           $release = gh release list --json tagName --jq ".[].tagName" | Select-String "v$version"
-          if ($release) {
+          if ($release -and $force -ne "true") {
             echo "NEW_VERSION=false" >> $env:GITHUB_OUTPUT
             Write-Host "Release v$version already exists, skipping deploy"
           } else {
             echo "NEW_VERSION=true" >> $env:GITHUB_OUTPUT
-            Write-Host "New version detected: $version"
+            Write-Host "New version detected: $version (force: $force)"
           }
       
       - name: Install Wrangler
