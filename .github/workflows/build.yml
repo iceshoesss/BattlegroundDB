@@ -72,6 +72,26 @@ jobs:
           wrangler kv key put --binding=BGDB_KV "updatedAt" "$updatedAt" --remote
           Write-Host "Updated at: $updatedAt"
       
+      - name: Verify upload
+        if: steps.version.outputs.NEW_VERSION == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        shell: pwsh
+        run: |
+          cd CloudflareBgdb
+          $version = "${{ steps.version.outputs.VERSION }}"
+          $key = "dll/$version"
+          
+          # 检查 key 是否存在
+          $result = wrangler kv key get --binding=BGDB_KV $key --remote 2>&1
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "✓ Upload verified: $key exists in KV"
+          } else {
+            Write-Host "✗ Upload failed: $key not found in KV"
+            Write-Host $result
+            exit 1
+          }
+      
       - name: Update version and deploy Worker
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
