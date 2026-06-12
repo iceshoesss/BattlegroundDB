@@ -35,7 +35,7 @@ class Program
 
         // 3. 合并数据并转换格式
         Console.Write("🔄 转换格式... ");
-        var result = MergeAndConvert(allCards, zhCnMap);
+        var result = await MergeAndConvertAsync(allCards, zhCnMap);
         Console.WriteLine($"✓ {result.Cards.Count} 张卡牌（已筛选 pool=true）");
 
         // 4. 保存 JSON
@@ -107,13 +107,16 @@ class Program
         return allCards;
     }
 
-    static BgdbResult MergeAndConvert(List<HsbgCard> hsbgCards, Dictionary<string, string> zhCnMap)
+    static async Task<BgdbResult> MergeAndConvertAsync(List<HsbgCard> hsbgCards, Dictionary<string, string> zhCnMap)
     {
+        // 从 hsbg.cards 获取最新版本号
+        var version = await FetchLatestVersion();
+        
         var result = new BgdbResult
         {
             Meta = new BgdbMeta
             {
-                Version = "35.6",
+                Version = version,
                 FetchedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ"),
                 TotalCards = 0
             },
@@ -174,6 +177,32 @@ class Program
         File.WriteAllText(path, json);
     }
 
+    static async Task<string> FetchLatestVersion()
+    {
+        try
+        {
+            var response = await HttpClient.GetAsync($"{HsbgApiBase}/patches");
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+            var patches = JsonSerializer.Deserialize<HsbgPatchesResponse>(json);
+
+            if (patches?.Data != null && patches.Data.Count > 0)
+            {
+                // 获取最新的 patch
+                var latestPatch = patches.Data[0];
+                Console.Write($"(版本: {latestPatch.CurrentPatch}) ");
+                return latestPatch.CurrentPatch;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Write($"(获取版本失败: {ex.Message}, 使用默认版本) ");
+        }
+
+        return "35.6"; // 默认版本
+    }
+
     static bool IsTokenCard(HsbgCard card)
     {
         // 只有 minion 类型才可能是衍生物
@@ -204,6 +233,24 @@ public class HsbgPageResponse
 
     [JsonPropertyName("pagination")]
     public HsbgPagination? Pagination { get; set; }
+}
+
+public class HsbgPatchesResponse
+{
+    [JsonPropertyName("data")]
+    public List<HsbgPatch>? Data { get; set; }
+}
+
+public class HsbgPatch
+{
+    [JsonPropertyName("version")]
+    public string Version { get; set; } = "";
+
+    [JsonPropertyName("currentPatch")]
+    public string CurrentPatch { get; set; } = "";
+
+    [JsonPropertyName("previousPatch")]
+    public string PreviousPatch { get; set; } = "";
 }
 
 public class HsbgPagination
