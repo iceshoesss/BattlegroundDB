@@ -222,6 +222,27 @@ namespace BattlegroundDB
             ).ToList();
         }
 
+        /// <summary>
+        /// 获取金色版本的 CardId（通过普通卡牌 CardId）
+        /// </summary>
+        /// <param name="cardId">普通卡牌的 CardId（如 "BG21_015"）</param>
+        /// <returns>金色版本的 CardId（如 "BG21_015_G"），如果不存在返回 null</returns>
+        public static string GetTripleCardId(string cardId)
+        {
+            Load();
+            if (string.IsNullOrEmpty(cardId)) return null;
+
+            // 查找普通卡牌
+            if (!ByCardId.TryGetValue(cardId, out var card)) return null;
+            if (card.DbfIdGold == null) return null;
+
+            // 通过 dbfIdGold 查找金色卡牌
+            if (ById.TryGetValue(card.DbfIdGold.Value, out var goldCard))
+                return goldCard.CardId;
+
+            return null;
+        }
+
         // === 私有方法 ===
 
         private static T LoadJson<T>(string resourceName)

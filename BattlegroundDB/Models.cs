@@ -47,6 +47,9 @@ namespace BattlegroundDB
         [JsonProperty("nameZh")]
         public string NameZh { get; set; }
 
+        [JsonProperty("textZh")]
+        public string TextZh { get; set; }
+
         [JsonProperty("tier")]
         public int? Tier { get; set; }
 
@@ -94,6 +97,9 @@ namespace BattlegroundDB
 
         [JsonProperty("childIds")]
         public List<int> ChildIds { get; set; }
+
+        [JsonProperty("dbfIdGold")]
+        public int? DbfIdGold { get; set; }
 
         [JsonProperty("trinketTier")]
         public string TrinketTier { get; set; }

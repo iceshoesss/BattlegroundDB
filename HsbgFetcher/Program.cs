@@ -23,9 +23,9 @@ class Program
         var outputDir = args.Length > 0 ? args[0] : Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "BattlegroundDB", "Data");
         Directory.CreateDirectory(outputDir);
 
-        // 1. 获取中文名映射
-        Console.Write("📡 获取中文名数据... ");
-        var zhCnMap = await FetchZhCnNames();
+        // 1. 获取中文名和中文描述映射
+        Console.Write("📡 获取中文名和描述数据... ");
+        var (zhCnMap, zhTextMap) = await FetchZhCnData();
         Console.WriteLine($"✓ {zhCnMap.Count} 条记录");
 
         // 2. 分页获取所有 hsbg.cards 数据
@@ -35,7 +35,7 @@ class Program
 
         // 3. 合并数据并转换格式
         Console.Write("🔄 转换格式... ");
-        var result = await MergeAndConvertAsync(allCards, zhCnMap);
+        var result = await MergeAndConvertAsync(allCards, zhCnMap, zhTextMap);
         Console.WriteLine($"✓ {result.Cards.Count} 张卡牌（已筛选 pool=true）");
 
         // 4. 保存 JSON
@@ -52,9 +52,10 @@ class Program
         Console.WriteLine($"   其他: {result.Cards.Count(c => !new[] { "minion", "hero", "anomaly", "quest", "reward", "trinket", "spell" }.Contains(c.CardType))}");
     }
 
-    static async Task<Dictionary<string, string>> FetchZhCnNames()
+    static async Task<(Dictionary<string, string> names, Dictionary<string, string> texts)> FetchZhCnData()
     {
-        var map = new Dictionary<string, string>();
+        var names = new Dictionary<string, string>();
+        var texts = new Dictionary<string, string>();
 
         var response = await HttpClient.GetAsync(HearthstoneJsonZhCn);
         response.EnsureSuccessStatusCode();
@@ -66,14 +67,18 @@ class Program
         {
             foreach (var card in cards)
             {
-                if (!string.IsNullOrEmpty(card.Id) && !string.IsNullOrEmpty(card.Name))
+                if (!string.IsNullOrEmpty(card.Id))
                 {
-                    map[card.Id] = card.Name;
+                    if (!string.IsNullOrEmpty(card.Name))
+                        names[card.Id] = card.Name;
+
+                    if (!string.IsNullOrEmpty(card.Text))
+                        texts[card.Id] = card.Text;
                 }
             }
         }
 
-        return map;
+        return (names, texts);
     }
 
     static async Task<List<HsbgCard>> FetchAllCards()
@@ -107,7 +112,7 @@ class Program
         return allCards;
     }
 
-    static async Task<BgdbResult> MergeAndConvertAsync(List<HsbgCard> hsbgCards, Dictionary<string, string> zhCnMap)
+    static async Task<BgdbResult> MergeAndConvertAsync(List<HsbgCard> hsbgCards, Dictionary<string, string> zhCnMap, Dictionary<string, string> zhTextMap)
     {
         // 从 hsbg.cards 获取最新版本号
         var version = await FetchLatestVersion();
@@ -135,6 +140,7 @@ class Program
                 CardId = card.ExternalId ?? "",
                 Name = card.Name ?? "",
                 NameZh = zhCnMap.GetValueOrDefault(card.ExternalId ?? "", ""),
+                TextZh = zhTextMap.GetValueOrDefault(card.ExternalId ?? "", ""),
                 Tier = card.Tier,
                 CardType = card.CardType ?? "",
                 MinionType = card.MinionType,
@@ -151,6 +157,7 @@ class Program
                 IsTimewarped = card.IsTimewarped,
                 Pool = card.Pool,
                 ChildIds = card.ChildIds ?? new List<int>(),
+                DbfIdGold = card.DbfIdGold,
                 TrinketTier = card.TrinketTier,
                 CompanionId = card.CompanionId,
                 IsToken = IsTokenCard(card),
@@ -327,6 +334,9 @@ public class HsbgCard
     [JsonPropertyName("childIds")]
     public List<int>? ChildIds { get; set; }
 
+    [JsonPropertyName("dbfIdGold")]
+    public int? DbfIdGold { get; set; }
+
     [JsonPropertyName("trinketTier")]
     public string? TrinketTier { get; set; }
 
@@ -343,6 +353,9 @@ public class HearthstoneJsonCard
 
     [JsonPropertyName("name")]
     public string? Name { get; set; }
+
+    [JsonPropertyName("text")]
+    public string? Text { get; set; }
 }
 
 // === 输出模型 ===
@@ -381,6 +394,9 @@ public class BgdbCard
 
     [JsonPropertyName("nameZh")]
     public string NameZh { get; set; } = "";
+
+    [JsonPropertyName("textZh")]
+    public string TextZh { get; set; } = "";
 
     [JsonPropertyName("tier")]
     public int? Tier { get; set; }
@@ -429,6 +445,9 @@ public class BgdbCard
 
     [JsonPropertyName("childIds")]
     public List<int> ChildIds { get; set; } = new();
+
+    [JsonPropertyName("dbfIdGold")]
+    public int? DbfIdGold { get; set; }
 
     [JsonPropertyName("trinketTier")]
     public string? TrinketTier { get; set; }
