@@ -133,5 +133,4 @@ jobs:
         run: |
           gh api -X POST repos/iceshoesss/HearthstoneBattlegroundTracker/dispatches `
             -H "Accept: application/vnd.github+json" `
-            -f event_type=bgdb-updated `
-            -f "client_payload={\"version\":\"${{ steps.version.outputs.VERSION }}\"}"
+            -f event_type=bgdb-updated
