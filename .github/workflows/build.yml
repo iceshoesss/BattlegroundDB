@@ -125,3 +125,13 @@ jobs:
             --generate-notes `
             "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll#BattlegroundDB.dll" `
             "web-cards.json#cards.json"
+      
+      - name: Trigger web rebuild (HBT Cards)
+        if: steps.version.outputs.NEW_VERSION == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.REPO_DISPATCH_TOKEN }}
+        run: |
+          gh api -X POST repos/iceshoesss/HearthstoneBattlegroundTracker/dispatches `
+            -H "Accept: application/vnd.github+json" `
+            -f event_type=bgdb-updated `
+            -f "client_payload={\"version\":\"${{ steps.version.outputs.VERSION }}\"}"
