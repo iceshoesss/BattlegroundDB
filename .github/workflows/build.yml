@@ -32,6 +32,9 @@ jobs:
       - name: Build BattlegroundDB.dll
         run: dotnet build BattlegroundDB/BattlegroundDB.csproj -c Release
       
+      - name: Generate web cards.json
+        run: node scripts/build-web-json.mjs BattlegroundDB/Data/bg_cards.json web-cards.json
+      
       - name: Get version and check if new
         id: version
         shell: pwsh
@@ -120,4 +123,5 @@ jobs:
           gh release create "v${{ steps.version.outputs.VERSION }}" `
             --title "BattlegroundDB v${{ steps.version.outputs.VERSION }}" `
             --generate-notes `
-            "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll#BattlegroundDB.dll"
+            "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll#BattlegroundDB.dll" `
+            "web-cards.json#cards.json"
