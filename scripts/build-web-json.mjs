@@ -10,16 +10,20 @@ if (!input || !output) {
   process.exit(1);
 }
 
-const raw = JSON.parse(readFileSync(input, 'utf8'));
+// 从 HearthstoneJSON 获取 dbfId → cardId 映射，用于解析金色版本 cardId
+console.log('📡 获取 HearthstoneJSON 数据...');
+const hsRes = await fetch('https://api.hearthstonejson.com/v1/latest/zhCN/cards.json');
+const hsCards = await hsRes.json();
+const hsByDbfId = new Map(hsCards.map(c => [c.dbfId, c.id]));
+console.log(`✓ ${hsByDbfId.size} 条 dbfId→cardId 映射`);
 
-// dbfId → cardId 全量表，用于解析金色版本 cardId
-const byDbfId = new Map(raw.cards.map(c => [c.id, c]));
+const raw = JSON.parse(readFileSync(input, 'utf8'));
 
 const cards = raw.cards
   .filter(c => c.cardType === 'minion' && !c.isToken && !c.isDuosOnly)
   .map(c => ({
     cardId: c.cardId,
-    goldenCardId: c.dbfIdGold ? byDbfId.get(c.dbfIdGold)?.cardId ?? `${c.cardId}_G` : `${c.cardId}_G`,
+    goldenCardId: c.dbfIdGold ? hsByDbfId.get(c.dbfIdGold) ?? `${c.cardId}_G` : `${c.cardId}_G`,
     name: (c.name || '').trim(),
     nameZh: (c.nameZh || '').trim(),
     textZh: c.textZh || '',
