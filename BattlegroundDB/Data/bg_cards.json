@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "36.6.1",
-    "fetchedAt": "2026-09-23T04:45:32.815Z",
+    "fetchedAt": "2026-09-26T09:11:43.550Z",
     "totalCards": 1423
   },
   "cards": [
@@ -23790,8 +23790,8 @@
       "minionTypes": [],
       "attack": 0,
       "health": 30,
-      "attackGold": 12,
-      "healthGold": 12,
+      "attackGold": 0,
+      "healthGold": 0,
       "manaCost": 0,
       "armor": 14,
       "keywords": [],
@@ -23804,7 +23804,6 @@
         114598,
         103248
       ],
-      "dbfIdGold": 62224,
       "companionId": 114598,
       "isToken": false,
       "isBuddy": false
