@@ -138,13 +138,30 @@ jobs:
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: pwsh
         run: |
-          gh release create "v${{ steps.version.outputs.VERSION }}" `
-            --title "BattlegroundDB v${{ steps.version.outputs.VERSION }}" `
-            --generate-notes `
-            "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll#BattlegroundDB.dll" `
-            "BattlegroundDB/Data/bg_cards.json#bg_cards.json" `
-            "web-cards.json#cards.json"
+          $version = "${{ steps.version.outputs.VERSION }}"
+          $tag = "v$version"
+          $dll = "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll"
+          $fullJson = "BattlegroundDB/Data/bg_cards.json"
+          $webJson = "web-cards.json"
+
+          $exists = gh release view $tag --json tagName 2>$null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $tag `
+              --title "BattlegroundDB $tag" `
+              --generate-notes `
+              "$dll#BattlegroundDB.dll" `
+              "$fullJson#bg_cards.json" `
+              "$webJson#cards.json"
+            if ($LASTEXITCODE -ne 0) { exit 1 }
+            Write-Host "Created release $tag"
+          } else {
+            # 已存在（force 重跑）时覆盖同名资源，并补上缺失的 bg_cards.json
+            gh release upload $tag $dll $fullJson $webJson --clobber
+            if ($LASTEXITCODE -ne 0) { exit 1 }
+            Write-Host "Updated assets on existing release $tag"
+          }
 
       - name: Trigger web rebuild (HBT Cards)
         if: steps.version.outputs.NEW_VERSION == 'true'
