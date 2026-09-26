@@ -16,25 +16,25 @@ jobs:
     runs-on: windows-latest
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
-      
+
       - name: Fetch card data from hsbg.cards
         run: dotnet run --project HsbgFetcher
-      
+
       - name: Build BattlegroundDB.dll
         run: dotnet build BattlegroundDB/BattlegroundDB.csproj -c Release
-      
+
       - name: Generate web cards.json
         run: node scripts/build-web-json.mjs BattlegroundDB/Data/bg_cards.json web-cards.json
-      
+
       - name: Get version and check if new
         id: version
         shell: pwsh
@@ -45,7 +45,7 @@ jobs:
           $version = $json.meta.version
           echo "VERSION=$version" >> $env:GITHUB_OUTPUT
           Write-Host "Current version: $version"
-          
+
           # 检查是否已存在该版本的 Release
           $force = "${{ github.event.inputs.force }}"
           $release = gh release list --json tagName --jq ".[].tagName" | Select-String "v$version"
@@ -56,7 +56,7 @@ jobs:
             echo "NEW_VERSION=true" >> $env:GITHUB_OUTPUT
             Write-Host "New version detected: $version (force: $force)"
           }
-      
+
       - name: Commit updated bg_cards.json
         if: steps.version.outputs.NEW_VERSION == 'true'
         run: |
@@ -65,25 +65,35 @@ jobs:
           git add BattlegroundDB/Data/bg_cards.json
           git diff --staged --quiet || git commit -m "chore: update bg_cards.json to v${{ steps.version.outputs.VERSION }}"
           git push
-      
+
       - name: Install Wrangler
         if: steps.version.outputs.NEW_VERSION == 'true'
         run: npm install -g wrangler
-      
-      - name: Upload DLL to Cloudflare KV
+
+      - name: Upload DLL and JSON to Cloudflare KV
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         shell: pwsh
         run: |
+          $version = "${{ steps.version.outputs.VERSION }}"
+          $dllPath = "../BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll"
+          $jsonPath = "../BattlegroundDB/Data/bg_cards.json"
           cd CloudflareBgdb
-          wrangler kv key put --binding=BGDB_KV "dll/${{ steps.version.outputs.VERSION }}" --path="../BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll" --remote
-          
+
+          wrangler kv key put --binding=BGDB_KV "dll/$version" --path=$dllPath --remote
+          Write-Host "Uploaded KV dll/$version"
+
+          # 完整卡牌 JSON：按版本存一份，再写 latest 指针
+          wrangler kv key put --binding=BGDB_KV "json/$version" --path=$jsonPath --remote
+          wrangler kv key put --binding=BGDB_KV "json/latest" --path=$jsonPath --remote
+          Write-Host "Uploaded KV json/$version and json/latest"
+
           # 设置更新时间
           $updatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
           wrangler kv key put --binding=BGDB_KV "updatedAt" "$updatedAt" --remote
           Write-Host "Updated at: $updatedAt"
-      
+
       - name: Verify upload
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
@@ -92,18 +102,18 @@ jobs:
         run: |
           cd CloudflareBgdb
           $version = "${{ steps.version.outputs.VERSION }}"
-          $key = "dll/$version"
-          
-          # 检查 key 是否存在
-          $result = wrangler kv key get --binding=BGDB_KV $key --remote 2>&1
-          if ($LASTEXITCODE -eq 0) {
-            Write-Host "✓ Upload verified: $key exists in KV"
-          } else {
-            Write-Host "✗ Upload failed: $key not found in KV"
-            Write-Host $result
-            exit 1
+
+          foreach ($key in @("dll/$version", "json/$version", "json/latest")) {
+            $result = wrangler kv key get --binding=BGDB_KV $key --remote 2>&1
+            if ($LASTEXITCODE -eq 0) {
+              Write-Host "✓ Upload verified: $key exists in KV"
+            } else {
+              Write-Host "✗ Upload failed: $key not found in KV"
+              Write-Host $result
+              exit 1
+            }
           }
-      
+
       - name: Update version and deploy Worker
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
@@ -115,7 +125,7 @@ jobs:
           (Get-Content $tomlPath) -replace 'BGDB_VERSION = ".*"', "BGDB_VERSION = `"$version`"" | Set-Content $tomlPath
           cd CloudflareBgdb
           wrangler deploy
-      
+
       - name: Force deploy (if forced)
         if: github.event.inputs.force == 'true'
         env:
@@ -123,7 +133,7 @@ jobs:
         run: |
           cd CloudflareBgdb
           wrangler deploy
-      
+
       - name: Create GitHub Release
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
@@ -133,8 +143,9 @@ jobs:
             --title "BattlegroundDB v${{ steps.version.outputs.VERSION }}" `
             --generate-notes `
             "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll#BattlegroundDB.dll" `
+            "BattlegroundDB/Data/bg_cards.json#bg_cards.json" `
             "web-cards.json#cards.json"
-      
+
       - name: Trigger web rebuild (HBT Cards)
         if: steps.version.outputs.NEW_VERSION == 'true'
         env:
