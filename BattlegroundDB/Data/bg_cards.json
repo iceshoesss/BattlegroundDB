@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "36.6.1",
-    "fetchedAt": "2026-09-26T09:38:26.629Z",
+    "version": "36.6.2",
+    "fetchedAt": "2026-09-28T23:41:50.933Z",
     "totalCards": 1423
   },
   "cards": [
@@ -3809,7 +3809,7 @@
       "name": "Unwilling Slacker",
       "nameZh": "强制躺平怪",
       "textZh": "<b>亡语：</b>随机获取一张消耗1枚铸币的酒馆法术牌。",
-      "tier": 2,
+      "tier": 3,
       "cardType": "minion",
       "minionType": "Aberration",
       "minionTypes": [
@@ -7648,7 +7648,7 @@
       "name": "Wandering Willbreaker",
       "nameZh": "游荡摧心怪",
       "textZh": "当你出售本随从时，随机获取2张酒馆法术牌。当你使用其中一张时，弃掉另一张。0当你出售本随从时，随机获取2张酒馆法术牌。当你使用或<b>传递</b>其中一张时，弃掉另一张。",
-      "tier": 3,
+      "tier": 2,
       "cardType": "minion",
       "minionType": "Aberration",
       "minionTypes": [
