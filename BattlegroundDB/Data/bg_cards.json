@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "36.6.2",
-    "fetchedAt": "2026-09-28T23:41:50.933Z",
+    "version": "36.6.3",
+    "fetchedAt": "2026-10-01T22:59:22.621Z",
     "totalCards": 1423
   },
   "cards": [
@@ -159,9 +159,9 @@
         116240,
         117499,
         117501,
-        132949,
         119255,
         121135,
+        132949,
         110401,
         120760,
         121182
@@ -281,6 +281,33 @@
         110402
       ],
       "dbfIdGold": 116241,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 130610,
+      "cardId": "BGFYM_000",
+      "name": "C'Thun",
+      "nameZh": "克苏恩",
+      "textZh": "<b>神明</b>。在本随从被唤醒后，使你的其他随从获得属性值，获得的总量为本随从的属性值。",
+      "tier": 1,
+      "cardType": "minion",
+      "minionType": "Aberration",
+      "minionTypes": [
+        "Aberration"
+      ],
+      "attack": 1,
+      "health": 1,
+      "attackGold": 2,
+      "healthGold": 2,
+      "manaCost": 0,
+      "keywords": [],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 134633,
       "isToken": false,
       "isBuddy": false
     },
@@ -844,7 +871,7 @@
       "cardId": "BG36_110",
       "name": "Joyous",
       "nameZh": "欢悦",
-      "textZh": "<b>战吼：</b>使你的<b>神明</b>获得+2/+2。",
+      "textZh": "<b>战吼：</b>使你的<b>神明</b>获得+2/+1。",
       "tier": 1,
       "cardType": "minion",
       "minionType": "Aberration",
@@ -1317,10 +1344,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 70150,
       "isToken": false,
@@ -1752,10 +1779,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 122569,
       "isToken": false,
@@ -1901,6 +1928,35 @@
         110975
       ],
       "dbfIdGold": 59679,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 132532,
+      "cardId": "BGFYM_011",
+      "name": "Y'Shaarj",
+      "nameZh": "亚煞极",
+      "textZh": "<b>神明</b>。<b>亡语：</b>召唤你在本场战斗中死亡的前2个畸变怪，且其具有其最大属性值<i>（<b>神明</b>除外）</i>。",
+      "tier": 1,
+      "cardType": "minion",
+      "minionType": "Aberration",
+      "minionTypes": [
+        "Aberration"
+      ],
+      "attack": 1,
+      "health": 1,
+      "attackGold": 2,
+      "healthGold": 2,
+      "manaCost": 0,
+      "keywords": [
+        "Deathrattle"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 134634,
       "isToken": false,
       "isBuddy": false
     },
@@ -2278,10 +2334,10 @@
         116596,
         116200,
         116201,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 116183,
       "isToken": false,
@@ -2351,7 +2407,7 @@
       "cardId": "BG36_360t3",
       "name": "Dark Paradox",
       "nameZh": "黑暗悖论体",
-      "textZh": "每当你使用一张牌，获得+2攻击力。2每当你使用一张牌，获得+2/+0。",
+      "textZh": "每当你使用一张牌，获得+3攻击力。3每当你使用一张牌，获得+3/+0。",
       "tier": 2,
       "cardType": "minion",
       "minionType": "All",
@@ -2359,9 +2415,9 @@
         "All"
       ],
       "attack": 2,
-      "health": 4,
+      "health": 6,
       "attackGold": 4,
-      "healthGold": 8,
+      "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -2379,17 +2435,17 @@
       "cardId": "BG36_360t6",
       "name": "Dark Paradox",
       "nameZh": "黑暗悖论体",
-      "textZh": "在本局对战中，你每触发过一次<b>战吼</b>，便拥有+2/+2<i>（无论本随从在哪）</i>。",
+      "textZh": "在本局对战中，你每触发过一次<b>战吼</b>，便拥有+3/+3<i>（无论本随从在哪）</i>。",
       "tier": 3,
       "cardType": "minion",
       "minionType": "All",
       "minionTypes": [
         "All"
       ],
-      "attack": 2,
-      "health": 2,
-      "attackGold": 4,
-      "healthGold": 4,
+      "attack": 3,
+      "health": 3,
+      "attackGold": 6,
+      "healthGold": 6,
       "manaCost": 0,
       "keywords": [
         "Aura"
@@ -2615,7 +2671,7 @@
       "cardId": "BG34_140",
       "name": "Expert Aviator",
       "nameZh": "飞行专家",
-      "textZh": "<b>进击：</b>召唤你手牌中攻击力最高的随从，其登场仅限本场战斗。",
+      "textZh": "<b>进击：</b>召唤你手牌中攻击力最高的鱼人，其登场仅限本场战斗。",
       "tier": 2,
       "cardType": "minion",
       "minionType": "Murloc",
@@ -2623,9 +2679,9 @@
         "Murloc"
       ],
       "attack": 3,
-      "health": 4,
+      "health": 5,
       "attackGold": 6,
-      "healthGold": 8,
+      "healthGold": 10,
       "manaCost": 0,
       "keywords": [
         "Rally"
@@ -2842,10 +2898,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 104958,
       "isToken": false,
@@ -3297,10 +3353,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 122099,
       "isToken": false,
@@ -3360,10 +3416,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 70161,
       "isToken": false,
@@ -3754,7 +3810,10 @@
       "textZh": "在一个不同的友方随从获得属性值后，直到下个回合，获得+1/+1。",
       "tier": 2,
       "cardType": "minion",
-      "minionTypes": [],
+      "minionType": "Aberration",
+      "minionTypes": [
+        "Aberration"
+      ],
       "attack": 3,
       "health": 3,
       "attackGold": 6,
@@ -3800,35 +3859,6 @@
         130613
       ],
       "dbfIdGold": 133105,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 131700,
-      "cardId": "BG36_101",
-      "name": "Unwilling Slacker",
-      "nameZh": "强制躺平怪",
-      "textZh": "<b>亡语：</b>随机获取一张消耗1枚铸币的酒馆法术牌。",
-      "tier": 3,
-      "cardType": "minion",
-      "minionType": "Aberration",
-      "minionTypes": [
-        "Aberration"
-      ],
-      "attack": 1,
-      "health": 1,
-      "attackGold": 2,
-      "healthGold": 2,
-      "manaCost": 0,
-      "keywords": [
-        "Deathrattle"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [],
-      "dbfIdGold": 131701,
       "isToken": false,
       "isBuddy": false
     },
@@ -3919,6 +3949,33 @@
       "isBuddy": false
     },
     {
+      "id": 131698,
+      "cardId": "BG36_100",
+      "name": "Wandering Willbreaker",
+      "nameZh": "游荡摧心怪",
+      "textZh": "当你出售本随从时，随机获取2张酒馆法术牌。当你使用其中一张时，弃掉另一张。0当你出售本随从时，随机获取2张酒馆法术牌。当你使用或<b>传递</b>其中一张时，弃掉另一张。",
+      "tier": 2,
+      "cardType": "minion",
+      "minionType": "Aberration",
+      "minionTypes": [
+        "Aberration"
+      ],
+      "attack": 1,
+      "health": 3,
+      "attackGold": 2,
+      "healthGold": 6,
+      "manaCost": 0,
+      "keywords": [],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 131699,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
       "id": 98656,
       "cardId": "BG23_HERO_303_Buddy",
       "name": "Watfin",
@@ -3959,10 +4016,10 @@
       "minionTypes": [
         "Aberration"
       ],
-      "attack": 3,
-      "health": 4,
-      "attackGold": 6,
-      "healthGold": 8,
+      "attack": 2,
+      "health": 2,
+      "attackGold": 4,
+      "healthGold": 4,
       "manaCost": 0,
       "keywords": [
         "Activate"
@@ -4122,11 +4179,7 @@
       "isSolosOnly": false,
       "isTimewarped": false,
       "pool": true,
-      "childIds": [
-        126822,
-        126824,
-        126826
-      ],
+      "childIds": [],
       "dbfIdGold": 126815,
       "isToken": false,
       "isBuddy": false
@@ -4303,64 +4356,6 @@
       "isBuddy": true
     },
     {
-      "id": 126669,
-      "cardId": "BG34_683",
-      "name": "Briarback Drummer",
-      "nameZh": "棘背鼓手",
-      "textZh": "<b>战吼：</b>获取一张鲜血宝石弹幕。",
-      "tier": 3,
-      "cardType": "minion",
-      "minionType": "Quilboar",
-      "minionTypes": [
-        "Quilboar"
-      ],
-      "attack": 5,
-      "health": 3,
-      "attackGold": 10,
-      "healthGold": 6,
-      "manaCost": 0,
-      "keywords": [
-        "Battlecry"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [
-        126676
-      ],
-      "dbfIdGold": 126670,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 130610,
-      "cardId": "BGFYM_000",
-      "name": "C'Thun",
-      "nameZh": "克苏恩",
-      "textZh": "<b>神明</b>。在本随从被唤醒后，使你的其他随从获得属性值，获得的总量为本随从的属性值。",
-      "tier": 3,
-      "cardType": "minion",
-      "minionType": "Aberration",
-      "minionTypes": [
-        "Aberration"
-      ],
-      "attack": 1,
-      "health": 1,
-      "attackGold": 2,
-      "healthGold": 2,
-      "manaCost": 0,
-      "keywords": [],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [],
-      "dbfIdGold": 134633,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
       "id": 113158,
       "cardId": "BG30_125",
       "name": "Cadaver Caretaker",
@@ -4471,10 +4466,10 @@
       "pool": true,
       "childIds": [
         71459,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 77536,
       "isToken": false,
@@ -4648,10 +4643,10 @@
       "childIds": [
         113907,
         113908,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 113155,
       "isToken": false,
@@ -5159,10 +5154,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 104765,
       "isToken": false,
@@ -5659,10 +5654,10 @@
       "childIds": [
         132642,
         132644,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 132631,
       "isToken": false,
@@ -5786,6 +5781,33 @@
         133039
       ],
       "dbfIdGold": 132797,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 116190,
+      "cardId": "BG31_327",
+      "name": "Thorned Trailblazer",
+      "nameZh": "刺棘开拓者",
+      "textZh": "每回合中有一张<b>抉择</b>牌可以同时拥有两种效果。<i>（还剩1张！）</i>",
+      "tier": 3,
+      "cardType": "minion",
+      "minionType": "Quilboar",
+      "minionTypes": [
+        "Quilboar"
+      ],
+      "attack": 4,
+      "health": 5,
+      "attackGold": 8,
+      "healthGold": 10,
+      "manaCost": 0,
+      "keywords": [],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 116197,
       "isToken": false,
       "isBuddy": false
     },
@@ -6360,10 +6382,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127432,
       "isToken": false,
@@ -6474,10 +6496,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127433,
       "isToken": false,
@@ -6774,10 +6796,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127352,
       "isToken": false,
@@ -7194,38 +7216,6 @@
       "isBuddy": false
     },
     {
-      "id": 126758,
-      "cardId": "BG34_Giant_078",
-      "name": "Timewarped Thorncaller",
-      "nameZh": "时空扭曲荆棘召唤者",
-      "textZh": "<b>战吼，亡语：</b>获取一张鲜血宝石弹幕。",
-      "tier": 3,
-      "cardType": "minion",
-      "minionType": "Quilboar",
-      "minionTypes": [
-        "Quilboar"
-      ],
-      "attack": 5,
-      "health": 3,
-      "attackGold": 10,
-      "healthGold": 6,
-      "manaCost": 1,
-      "keywords": [
-        "Deathrattle",
-        "Battlecry"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": true,
-      "pool": true,
-      "childIds": [
-        126676
-      ],
-      "dbfIdGold": 127353,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
       "id": 127948,
       "cardId": "BG34_Giant_604",
       "name": "Timewarped Tipper",
@@ -7558,11 +7548,11 @@
       "isBuddy": false
     },
     {
-      "id": 131714,
-      "cardId": "BG36_108",
-      "name": "Vicious Mindslasher",
-      "nameZh": "残忍的精神鞭笞者",
-      "textZh": "每当你施放一个酒馆法术，使本随从和你的<b>神明</b>获得+1/+3。",
+      "id": 131700,
+      "cardId": "BG36_101",
+      "name": "Unwilling Slacker",
+      "nameZh": "强制躺平怪",
+      "textZh": "<b>亡语：</b>随机获取一张消耗1枚铸币的酒馆法术牌。",
       "tier": 3,
       "cardType": "minion",
       "minionType": "Aberration",
@@ -7570,9 +7560,38 @@
         "Aberration"
       ],
       "attack": 3,
-      "health": 1,
+      "health": 2,
       "attackGold": 6,
-      "healthGold": 2,
+      "healthGold": 4,
+      "manaCost": 0,
+      "keywords": [
+        "Deathrattle"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 131701,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 131714,
+      "cardId": "BG36_108",
+      "name": "Vicious Mindslasher",
+      "nameZh": "残忍的精神鞭笞者",
+      "textZh": "每当你施放一个酒馆法术，使本随从和你的<b>神明</b>获得+1/+2。",
+      "tier": 3,
+      "cardType": "minion",
+      "minionType": "Aberration",
+      "minionTypes": [
+        "Aberration"
+      ],
+      "attack": 1,
+      "health": 2,
+      "attackGold": 2,
+      "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -7618,17 +7637,17 @@
       "cardId": "BGDUO_700",
       "name": "Voidpriest Cloner",
       "nameZh": "虚空祭神复制师",
-      "textZh": "每当你弃掉一张牌，<b>传递</b>一张该牌的复制。<i>（每回合限2次。）</i>2每当你弃掉一张牌，<b>传递</b>一张该牌的复制。<i>（还剩2次！）</i>",
+      "textZh": "在你弃掉一张牌后，<b>传递</b>一张该牌的原始版复制。<i>（每回合一次。）</i>",
       "tier": 3,
       "cardType": "minion",
       "minionType": "Aberration",
       "minionTypes": [
         "Aberration"
       ],
-      "attack": 4,
-      "health": 5,
-      "attackGold": 8,
-      "healthGold": 10,
+      "attack": 5,
+      "health": 6,
+      "attackGold": 10,
+      "healthGold": 12,
       "manaCost": 0,
       "keywords": [
         "Pass"
@@ -7639,33 +7658,6 @@
       "pool": true,
       "childIds": [],
       "dbfIdGold": 134694,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 131698,
-      "cardId": "BG36_100",
-      "name": "Wandering Willbreaker",
-      "nameZh": "游荡摧心怪",
-      "textZh": "当你出售本随从时，随机获取2张酒馆法术牌。当你使用其中一张时，弃掉另一张。0当你出售本随从时，随机获取2张酒馆法术牌。当你使用或<b>传递</b>其中一张时，弃掉另一张。",
-      "tier": 2,
-      "cardType": "minion",
-      "minionType": "Aberration",
-      "minionTypes": [
-        "Aberration"
-      ],
-      "attack": 1,
-      "health": 3,
-      "attackGold": 2,
-      "healthGold": 6,
-      "manaCost": 0,
-      "keywords": [],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [],
-      "dbfIdGold": 131699,
       "isToken": false,
       "isBuddy": false
     },
@@ -7808,35 +7800,6 @@
       "pool": true,
       "childIds": [],
       "dbfIdGold": 132807,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 132532,
-      "cardId": "BGFYM_011",
-      "name": "Y'Shaarj",
-      "nameZh": "亚煞极",
-      "textZh": "<b>神明</b>。<b>亡语：</b>召唤你在本场战斗中死亡的前2个畸变怪，且其具有其最大属性值<i>（<b>神明</b>除外）</i>。",
-      "tier": 3,
-      "cardType": "minion",
-      "minionType": "Aberration",
-      "minionTypes": [
-        "Aberration"
-      ],
-      "attack": 1,
-      "health": 1,
-      "attackGold": 2,
-      "healthGold": 2,
-      "manaCost": 0,
-      "keywords": [
-        "Deathrattle"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [],
-      "dbfIdGold": 134634,
       "isToken": false,
       "isBuddy": false
     },
@@ -8143,10 +8106,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 70174,
       "isToken": false,
@@ -8901,10 +8864,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 104767,
       "isToken": false,
@@ -9033,7 +8996,7 @@
       "cardId": "BG26_810",
       "name": "Gunpowder Courier",
       "nameZh": "火药运输工",
-      "textZh": "每当你花掉\n5枚铸币，使你的海盗获得+2攻击力。<i>（还剩5枚！）</i>5每当你花掉5枚铸币，使你的海盗获得+2/+0。<i>（还剩5枚！）</i>",
+      "textZh": "每当你花掉5枚铸币，使你的海盗获得+3/+1。<i>（还剩6枚！）</i>",
       "tier": 4,
       "cardType": "minion",
       "minionType": "Pirate",
@@ -9041,9 +9004,9 @@
         "Pirate"
       ],
       "attack": 2,
-      "health": 6,
+      "health": 5,
       "attackGold": 4,
-      "healthGold": 12,
+      "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -9207,14 +9170,14 @@
       "cardId": "BG36_372",
       "name": "Holy Vanguard",
       "nameZh": "神圣先锋",
-      "textZh": "<b>圣盾</b>。如果你的生命值小于或等于15点，拥有+15/+15。",
+      "textZh": "<b>圣盾</b>。如果你的生命值小于或等于15点，拥有+30/+30。",
       "tier": 4,
       "cardType": "minion",
       "minionTypes": [],
-      "attack": 5,
-      "health": 5,
-      "attackGold": 10,
-      "healthGold": 10,
+      "attack": 10,
+      "health": 10,
+      "attackGold": 20,
+      "healthGold": 20,
       "manaCost": 0,
       "keywords": [
         "Divine Shield"
@@ -9253,10 +9216,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
         130700,
-        70136,
         117856
       ],
       "dbfIdGold": 113153,
@@ -9558,7 +9521,7 @@
       "cardId": "BG26_814",
       "name": "Lovesick Balladist",
       "nameZh": "苦情民谣歌手",
-      "textZh": "<b>战吼：</b>使一个海盗获得+1生命值。<i>（在本回合中你每花费一枚铸币都会提升！）</i>",
+      "textZh": "<b>战吼：</b>使一个海盗获得+2生命值。<i>（在本回合中你每花费一枚铸币都会提升！）</i>",
       "tier": 4,
       "cardType": "minion",
       "minionType": "Pirate",
@@ -9566,9 +9529,9 @@
         "Pirate"
       ],
       "attack": 3,
-      "health": 2,
+      "health": 4,
       "attackGold": 6,
-      "healthGold": 4,
+      "healthGold": 8,
       "manaCost": 0,
       "keywords": [
         "Battlecry"
@@ -9935,20 +9898,20 @@
       "cardId": "BG36_115",
       "name": "Nightmare Corroder",
       "nameZh": "梦魇侵蚀怪",
-      "textZh": "<b>亡语：</b>获取一张腐泥侵蚀。",
+      "textZh": "在你的回合结束时，获取一张腐泥侵蚀。",
       "tier": 4,
       "cardType": "minion",
       "minionType": "Aberration",
       "minionTypes": [
         "Aberration"
       ],
-      "attack": 7,
-      "health": 4,
-      "attackGold": 14,
-      "healthGold": 8,
+      "attack": 4,
+      "health": 5,
+      "attackGold": 8,
+      "healthGold": 10,
       "manaCost": 0,
       "keywords": [
-        "Deathrattle"
+        "End of Turn"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10180,20 +10143,21 @@
       "cardId": "BG34_682",
       "name": "Razorfen Flapper",
       "nameZh": "剃刀沼泽舞扇者",
-      "textZh": "<b>亡语：</b>获取一张鲜血宝石弹幕。",
+      "textZh": "<b>战吼，亡语：</b>获取一张鲜血宝石弹幕。",
       "tier": 4,
       "cardType": "minion",
       "minionType": "Quilboar",
       "minionTypes": [
         "Quilboar"
       ],
-      "attack": 6,
-      "health": 2,
-      "attackGold": 12,
-      "healthGold": 4,
+      "attack": 5,
+      "health": 3,
+      "attackGold": 10,
+      "healthGold": 6,
       "manaCost": 0,
       "keywords": [
-        "Deathrattle"
+        "Deathrattle",
+        "Battlecry"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10322,35 +10286,6 @@
       "pool": true,
       "childIds": [],
       "dbfIdGold": 117335,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 132881,
-      "cardId": "BG36_700",
-      "name": "Sewer Escapee",
-      "nameZh": "下水道逃生鱼人",
-      "textZh": "<b>发动（1）：</b>使另一个鱼人获得+7/+7和一个随机<b>额外关键词</b>。",
-      "tier": 4,
-      "cardType": "minion",
-      "minionType": "Murloc",
-      "minionTypes": [
-        "Murloc"
-      ],
-      "attack": 4,
-      "health": 5,
-      "attackGold": 8,
-      "healthGold": 10,
-      "manaCost": 0,
-      "keywords": [
-        "Activate"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [],
-      "dbfIdGold": 132882,
       "isToken": false,
       "isBuddy": false
     },
@@ -10620,33 +10555,6 @@
         126568
       ],
       "dbfIdGold": 64079,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 116190,
-      "cardId": "BG31_327",
-      "name": "Thorned Trailblazer",
-      "nameZh": "刺棘开拓者",
-      "textZh": "每回合中有一张<b>抉择</b>牌可以同时拥有两种效果。<i>（还剩1张！）</i>",
-      "tier": 4,
-      "cardType": "minion",
-      "minionType": "Quilboar",
-      "minionTypes": [
-        "Quilboar"
-      ],
-      "attack": 4,
-      "health": 5,
-      "attackGold": 8,
-      "healthGold": 10,
-      "manaCost": 0,
-      "keywords": [],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [],
-      "dbfIdGold": 116197,
       "isToken": false,
       "isBuddy": false
     },
@@ -10946,17 +10854,17 @@
       "cardId": "BG36_514",
       "name": "Barrier Banshee",
       "nameZh": "障蔽女妖",
-      "textZh": "在一个友方随从<b>复生</b>后，获得<b>圣盾</b>和+7/+7。",
+      "textZh": "在一个友方随从<b>复生</b>后，获得<b>圣盾</b>和+8/+8。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Undead",
       "minionTypes": [
         "Undead"
       ],
-      "attack": 7,
-      "health": 7,
-      "attackGold": 14,
-      "healthGold": 14,
+      "attack": 8,
+      "health": 8,
+      "attackGold": 16,
+      "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -11298,7 +11206,7 @@
       "cardId": "BG36_762",
       "name": "Devilish Distractor",
       "nameZh": "恶魔干扰者",
-      "textZh": "每当你对本随从施放法术，使酒馆中的随从在本局对战中获得+2/+2。",
+      "textZh": "每当你对本随从施放法术，使酒馆中的随从在本局对战中获得+1/+2。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Demon",
@@ -11389,7 +11297,7 @@
       "cardId": "BG32_324",
       "name": "Drustfallen Butcher",
       "nameZh": "德鲁斯特堕落屠夫",
-      "textZh": "<b>复仇（3）：</b>获取一张宰割。",
+      "textZh": "<b>复仇（4）：</b>获取一张宰割。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Undead",
@@ -11449,7 +11357,7 @@
       "cardId": "BG36_523",
       "name": "Enterprising Escapee",
       "nameZh": "上进的逃兵",
-      "textZh": "在你花掉5枚铸币后，获取一张上锁宝箱。如果你已有宝箱，改为使其提前1回合打开。<i>（还剩5枚！）</i>",
+      "textZh": "在你花掉6枚铸币后，获取一张上锁宝箱。如果你已有宝箱，改为使其提前1回合打开。<i>（还剩6枚！）</i>",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Pirate",
@@ -11475,11 +11383,74 @@
       "isBuddy": false
     },
     {
+      "id": 95263,
+      "cardId": "BG25_009",
+      "name": "Eternal Summoner",
+      "nameZh": "永恒召唤者",
+      "textZh": "<b>复生</b>。<b>亡语：</b>召唤1个永恒骑士。",
+      "tier": 5,
+      "cardType": "minion",
+      "minionType": "Undead",
+      "minionTypes": [
+        "Undead"
+      ],
+      "attack": 8,
+      "health": 1,
+      "attackGold": 16,
+      "healthGold": 2,
+      "manaCost": 0,
+      "keywords": [
+        "Deathrattle",
+        "Reborn"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [
+        95261
+      ],
+      "dbfIdGold": 95264,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 129263,
+      "cardId": "BG34_403",
+      "name": "Eternal Tycoon",
+      "nameZh": "永恒大亨",
+      "textZh": "<b>复仇（5）：</b>召唤一个永恒骑士并使其立即发起攻击。",
+      "tier": 5,
+      "cardType": "minion",
+      "minionType": "Undead",
+      "minionTypes": [
+        "Undead"
+      ],
+      "attack": 4,
+      "health": 8,
+      "attackGold": 8,
+      "healthGold": 16,
+      "manaCost": 0,
+      "keywords": [
+        "Avenge"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [
+        95261
+      ],
+      "dbfIdGold": 129264,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
       "id": 132331,
       "cardId": "BG36_318",
       "name": "Faceless Converter",
       "nameZh": "无面转化者",
-      "textZh": "<b>亡语：</b>使你的<b>神明</b>获得+1/+1。<i>（在本局对战中你每施放一个酒馆法术都会提升！）</i>",
+      "textZh": "<b>亡语：</b>使你的<b>神明</b>获得+2/+1。<i>（在本局对战中你每施放一个酒馆法术都会提升！）</i>",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Aberration",
@@ -11752,16 +11723,16 @@
       "cardId": "BG36_364",
       "name": "Hopebringer",
       "nameZh": "希望信使",
-      "textZh": "<b>战斗开始时：</b>使你的随从获得+3/+3。<i>（在一个友方随从失去<b>圣盾</b>后永久提升！）</i>",
+      "textZh": "<b>战斗开始时：</b>使你的随从获得+4/+3。<i>（在一个友方随从失去<b>圣盾</b>后永久提升！）</i>",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Dragon",
       "minionTypes": [
         "Dragon"
       ],
-      "attack": 3,
+      "attack": 4,
       "health": 3,
-      "attackGold": 6,
+      "attackGold": 8,
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [
@@ -11918,17 +11889,17 @@
       "cardId": "BG36_848",
       "name": "Lichling Hoarder",
       "nameZh": "小巫妖囤积者",
-      "textZh": "<b>复仇（4）：</b>获取本场战斗中在你初始战队中的一个随从的一张原始版复制。",
+      "textZh": "<b>复仇（3）：</b>获取本场战斗中在你初始战队中的一个随从的一张原始版复制。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Undead",
       "minionTypes": [
         "Undead"
       ],
-      "attack": 5,
-      "health": 10,
-      "attackGold": 10,
-      "healthGold": 20,
+      "attack": 6,
+      "health": 9,
+      "attackGold": 12,
+      "healthGold": 18,
       "manaCost": 0,
       "keywords": [
         "Avenge"
@@ -11947,17 +11918,17 @@
       "cardId": "BG28_707",
       "name": "Living Azerite",
       "nameZh": "活化艾泽里特",
-      "textZh": "每当你施放一个酒馆法术，使酒馆中的元素在本局对战中获得+3/+2。",
+      "textZh": "每当你施放一个酒馆法术，使酒馆中的元素在本局对战中获得+4/+3。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Elemental",
       "minionTypes": [
         "Elemental"
       ],
-      "attack": 6,
-      "health": 5,
-      "attackGold": 12,
-      "healthGold": 10,
+      "attack": 8,
+      "health": 6,
+      "attackGold": 16,
+      "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -12060,7 +12031,7 @@
       "cardId": "BG36_097",
       "name": "Mindbender Ghur'sha",
       "nameZh": "蛊心魔古厄夏",
-      "textZh": "每当你弃掉一张牌，使你的其他随从获得+3/+3。",
+      "textZh": "每当你弃掉一张牌，使你的其他随从获得+4/+4。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Aberration",
@@ -12087,17 +12058,17 @@
       "cardId": "BG36_320",
       "name": "Mysterious K'Thir",
       "nameZh": "神秘的克熙尔",
-      "textZh": "在你的回合结束时，弃掉你最左边的3张酒馆法术牌。每弃掉一张，便获得+8/+8。",
+      "textZh": "在你的回合结束时，弃掉你最左边的3张酒馆法术牌。每弃掉一张，便获得+7/+7。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Aberration",
       "minionTypes": [
         "Aberration"
       ],
-      "attack": 8,
-      "health": 8,
-      "attackGold": 16,
-      "healthGold": 16,
+      "attack": 7,
+      "health": 7,
+      "attackGold": 14,
+      "healthGold": 14,
       "manaCost": 0,
       "keywords": [
         "End of Turn"
@@ -12272,17 +12243,17 @@
       "cardId": "BG33_883",
       "name": "Razorfen Vineweaver",
       "nameZh": "剃刀沼泽织藤者",
-      "textZh": "<b>进击：</b>本随从对自身使用3张永久的<b>鲜血宝石</b>。",
+      "textZh": "<b>进击：</b>本随从对自身使用4张永久的<b>鲜血宝石</b>。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Quilboar",
       "minionTypes": [
         "Quilboar"
       ],
-      "attack": 5,
-      "health": 5,
-      "attackGold": 10,
-      "healthGold": 10,
+      "attack": 4,
+      "health": 4,
+      "attackGold": 8,
+      "healthGold": 8,
       "manaCost": 0,
       "keywords": [
         "Rally"
@@ -12292,10 +12263,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 122563,
       "isToken": false,
@@ -12382,10 +12353,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 122567,
       "isToken": false,
@@ -12417,6 +12388,35 @@
       "pool": true,
       "childIds": [],
       "dbfIdGold": 117333,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 132881,
+      "cardId": "BG36_700",
+      "name": "Sewer Escapee",
+      "nameZh": "下水道逃生鱼人",
+      "textZh": "<b>发动（1）：</b>使另一个鱼人获得+7/+7和一个随机<b>额外关键词</b>。",
+      "tier": 5,
+      "cardType": "minion",
+      "minionType": "Murloc",
+      "minionTypes": [
+        "Murloc"
+      ],
+      "attack": 7,
+      "health": 7,
+      "attackGold": 14,
+      "healthGold": 14,
+      "manaCost": 0,
+      "keywords": [
+        "Activate"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 132882,
       "isToken": false,
       "isBuddy": false
     },
@@ -12509,6 +12509,35 @@
       "isBuddy": true
     },
     {
+      "id": 123595,
+      "cardId": "BG33_828",
+      "name": "Ship Master Eudora",
+      "nameZh": "舰长尤朵拉",
+      "textZh": "<b>亡语：</b>使你的随从获得+6/+6，金色随从可永久保留此效果。",
+      "tier": 5,
+      "cardType": "minion",
+      "minionType": "Pirate",
+      "minionTypes": [
+        "Pirate"
+      ],
+      "attack": 8,
+      "health": 3,
+      "attackGold": 16,
+      "healthGold": 6,
+      "manaCost": 0,
+      "keywords": [
+        "Deathrattle"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "dbfIdGold": 123596,
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
       "id": 122177,
       "cardId": "BG33_821",
       "name": "Shipwrecked Rascal",
@@ -12543,17 +12572,17 @@
       "cardId": "BG36_851",
       "name": "Spark Snapper",
       "nameZh": "火花破坏机",
-      "textZh": "每当你使用一张机械牌，对其<b>磁力吸附</b>一个2/2的卫星并提升此效果。",
+      "textZh": "每当你使用一张机械牌，对其<b>磁力吸附</b>一个2/3的卫星并提升此效果。",
       "tier": 5,
       "cardType": "minion",
       "minionType": "Mech",
       "minionTypes": [
         "Mech"
       ],
-      "attack": 5,
-      "health": 5,
-      "attackGold": 10,
-      "healthGold": 10,
+      "attack": 6,
+      "health": 8,
+      "attackGold": 12,
+      "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -12846,10 +12875,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127874,
       "isToken": false,
@@ -12909,10 +12938,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127389,
       "isToken": false,
@@ -12944,10 +12973,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127392,
       "isToken": false,
@@ -13208,10 +13237,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 128118,
       "isToken": false,
@@ -13616,10 +13645,10 @@
       "isTimewarped": true,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 127878,
       "isToken": false,
@@ -14885,17 +14914,17 @@
       "cardId": "BG36_367",
       "name": "Auto Reveille",
       "nameZh": "自动起床号",
-      "textZh": "在你购买3张牌后，随机获取一张<b>磁力</b>扩音机。<i>（还剩3张！）</i>",
+      "textZh": "在你购买3张牌后，随机为本随从<b>磁力吸附</b>一个扩音机，并获取一张该扩音机的复制。<i>（还剩3张！）</i>",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Mech",
       "minionTypes": [
         "Mech"
       ],
-      "attack": 6,
-      "health": 6,
-      "attackGold": 12,
-      "healthGold": 12,
+      "attack": 4,
+      "health": 8,
+      "attackGold": 8,
+      "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -15196,38 +15225,6 @@
       "isBuddy": false
     },
     {
-      "id": 95263,
-      "cardId": "BG25_009",
-      "name": "Eternal Summoner",
-      "nameZh": "永恒召唤者",
-      "textZh": "<b>复生</b>。<b>亡语：</b>召唤1个永恒骑士。",
-      "tier": 6,
-      "cardType": "minion",
-      "minionType": "Undead",
-      "minionTypes": [
-        "Undead"
-      ],
-      "attack": 8,
-      "health": 1,
-      "attackGold": 16,
-      "healthGold": 2,
-      "manaCost": 0,
-      "keywords": [
-        "Deathrattle",
-        "Reborn"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [
-        95261
-      ],
-      "dbfIdGold": 95264,
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
       "id": 130798,
       "cardId": "BG35_342",
       "name": "Falling Sky Golem",
@@ -15320,7 +15317,7 @@
       "cardId": "BGFYM_005",
       "name": "Harbinger Aph'lass",
       "nameZh": "预言者阿菲拉斯",
-      "textZh": "每当你弃掉一张牌，使你的<b>神明</b>获得+1/+1并提升此效果。",
+      "textZh": "每当你弃掉一张牌，使你的<b>神明</b>获得+2/+1并提升此效果。",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Aberration",
@@ -15423,10 +15420,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 117493,
       "isToken": false,
@@ -15518,7 +15515,7 @@
       "cardId": "BG36_209",
       "name": "Ravaging Scorpid",
       "nameZh": "暴虐巨蝎",
-      "textZh": "在一个友方随从攻击后，在本局对战中，你的甲虫拥有+5/+5。<b>亡语：</b>召唤一只2/2的甲虫。",
+      "textZh": "在一个友方随从攻击后，在本局对战中，你的甲虫拥有+4/+4。<b>亡语：</b>召唤一只2/2的甲虫。",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Beast",
@@ -15570,10 +15567,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 80773,
       "isToken": false,
@@ -15756,7 +15753,7 @@
       "cardId": "BG36_109",
       "name": "The Shadow of Doubt",
       "nameZh": "疑之影",
-      "textZh": "每当一张牌被置入你的手牌，使你的<b>神明</b>获得+3/+4。",
+      "textZh": "每当一张牌被置入你的手牌，使你的<b>神明</b>获得+4/+5。",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Aberration",
@@ -15813,17 +15810,17 @@
       "cardId": "BG31_323",
       "name": "Turbo Hogrider",
       "nameZh": "极速野猪骑士",
-      "textZh": "在你使用一张<b>抉择</b>牌后，本随从对你的所有其他野猪人各使用一张<b>鲜血宝石</b>。",
+      "textZh": "在你使用一张<b>抉择</b>牌后，本随从对你的所有野猪人各使用2张<b>鲜血宝石</b>。",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Quilboar",
       "minionTypes": [
         "Quilboar"
       ],
-      "attack": 5,
-      "health": 7,
-      "attackGold": 10,
-      "healthGold": 14,
+      "attack": 6,
+      "health": 8,
+      "attackGold": 12,
+      "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -15831,10 +15828,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 116196,
       "isToken": false,
@@ -15902,7 +15899,7 @@
       "cardId": "BG31_810",
       "name": "Ultraviolet Ascendant",
       "nameZh": "极紫外升腾者",
-      "textZh": "<b>战斗开始时：</b>使你的其他元素获得+3/+2。<i>（在你使用一张元素牌后提升！）</i>",
+      "textZh": "<b>战斗开始时：</b>使你的其他元素获得+3/+3。<i>（在你使用一张元素牌后提升！）</i>",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Elemental",
@@ -15910,9 +15907,9 @@
         "Elemental"
       ],
       "attack": 6,
-      "health": 3,
+      "health": 6,
       "attackGold": 12,
-      "healthGold": 6,
+      "healthGold": 12,
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
@@ -15931,7 +15928,7 @@
       "cardId": "BG36_352",
       "name": "Unbound Tempest",
       "nameZh": "无羁雷暴",
-      "textZh": "在你使用3张元素牌后，获得酒馆中生命值最高的随从的属性值。<i>（还剩3张！）</i>",
+      "textZh": "在你使用4张元素牌后，获得酒馆中生命值最高的随从的属性值。<i>（还剩4张！）</i>",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Elemental",
@@ -16010,10 +16007,10 @@
         126676,
         132941,
         132942,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 132930,
       "isToken": false,
@@ -16044,10 +16041,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "dbfIdGold": 134424,
       "isToken": false,
@@ -16058,17 +16055,17 @@
       "cardId": "BG22_403",
       "name": "Young Murk-Eye",
       "nameZh": "小瞎眼",
-      "textZh": "在你的回合结束时，触发一个相邻随从的<b>战吼</b>。",
+      "textZh": "在你的回合结束时，触发相邻随从的<b>战吼</b>。",
       "tier": 6,
       "cardType": "minion",
       "minionType": "Murloc",
       "minionTypes": [
         "Murloc"
       ],
-      "attack": 9,
-      "health": 6,
-      "attackGold": 18,
-      "healthGold": 12,
+      "attack": 8,
+      "health": 5,
+      "attackGold": 16,
+      "healthGold": 10,
       "manaCost": 0,
       "keywords": [
         "End of Turn"
@@ -16320,17 +16317,17 @@
       "cardId": "BG36_111",
       "name": "Sha of Fear",
       "nameZh": "惧之煞",
-      "textZh": "每当你施放一个酒馆法术，使你的随从和<b>神明</b>获得+4/+3。",
+      "textZh": "每当你施放一个酒馆法术，使你的随从和<b>神明</b>获得+3/+3。",
       "tier": 7,
       "cardType": "minion",
       "minionType": "Aberration",
       "minionTypes": [
         "Aberration"
       ],
-      "attack": 9,
-      "health": 12,
-      "attackGold": 18,
-      "healthGold": 24,
+      "attack": 10,
+      "health": 13,
+      "attackGold": 20,
+      "healthGold": 26,
       "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
@@ -16755,8 +16752,8 @@
         103688,
         104538,
         80740,
-        122213,
         72071,
+        122213,
         65232,
         102075
       ],
@@ -17271,40 +17268,6 @@
       "isBuddy": false
     },
     {
-      "id": 126676,
-      "cardId": "BG34_689",
-      "name": "Blood Gem Barrage",
-      "nameZh": "鲜血宝石弹幕",
-      "textZh": "在本局对战中，在酒馆<b>刷新</b>后，使其中的随从获得+1/+1的<b>鲜血宝石</b>。",
-      "tier": 3,
-      "cardType": "spell",
-      "minionTypes": [],
-      "attack": 0,
-      "health": 0,
-      "attackGold": 0,
-      "healthGold": 0,
-      "manaCost": 1,
-      "keywords": [],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [
-        126667,
-        126669,
-        126758,
-        128114,
-        132929,
-        130698,
-        130699,
-        130700,
-        70136,
-        132942
-      ],
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
       "id": 65259,
       "cardId": "BGS_Treasures_015",
       "name": "Buy the Holy Light",
@@ -17790,8 +17753,8 @@
       "pool": true,
       "childIds": [
         132895,
-        133695,
-        120864
+        120864,
+        133695
       ],
       "isToken": false,
       "isBuddy": false
@@ -17934,8 +17897,8 @@
       "pool": true,
       "childIds": [
         126631,
-        132985,
         120213,
+        132985,
         127968,
         113102
       ],
@@ -18316,6 +18279,40 @@
       "isBuddy": false
     },
     {
+      "id": 126676,
+      "cardId": "BG34_689",
+      "name": "Blood Gem Barrage",
+      "nameZh": "鲜血宝石弹幕",
+      "textZh": "在本局对战中，在酒馆<b>刷新</b>后，使其中的随从获得+2/+2的<b>鲜血宝石</b>。",
+      "tier": 4,
+      "cardType": "spell",
+      "minionTypes": [],
+      "attack": 0,
+      "health": 0,
+      "attackGold": 0,
+      "healthGold": 0,
+      "manaCost": 1,
+      "keywords": [],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [
+        126667,
+        126669,
+        126758,
+        128114,
+        132929,
+        70136,
+        130698,
+        130699,
+        130700,
+        132942
+      ],
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
       "id": 110401,
       "cardId": "BG28_603",
       "name": "Boon of Beetles",
@@ -18422,7 +18419,7 @@
       "cardId": "BG34_444",
       "name": "Easterly Winds",
       "nameZh": "乘借东风",
-      "textZh": "在本局对战中，在酒馆<b>刷新</b>后，使酒馆中一个随机随从获得+8/+8。",
+      "textZh": "在本局对战中，在酒馆<b>刷新</b>后，使酒馆中一个随机随从获得+9/+9。",
       "tier": 4,
       "cardType": "spell",
       "minionTypes": [],
@@ -18518,7 +18515,7 @@
       "cardId": "BG28_698",
       "name": "Gem Confiscation",
       "nameZh": "查抄宝石",
-      "textZh": "本牌对一个随从使用2张<b>鲜血宝石</b>，并使其偷取相邻随从的所有<b>鲜血宝石</b>。",
+      "textZh": "本牌对一个随从使用3张<b>鲜血宝石</b>，并使其偷取相邻随从的所有<b>鲜血宝石</b>。",
       "tier": 4,
       "cardType": "spell",
       "minionTypes": [],
@@ -18534,10 +18531,10 @@
       "pool": true,
       "childIds": [
         126671,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -18658,8 +18655,8 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
-        133329,
-        120754
+        120754,
+        133329
       ],
       "isToken": false,
       "isBuddy": false
@@ -18973,7 +18970,7 @@
       "cardId": "BG28_604",
       "name": "Butchering",
       "nameZh": "宰割",
-      "textZh": "消灭一个友方亡灵。在本局对战中，你的亡灵拥有+5攻击力<i>（无论它们在哪）。</i>5消灭一个友方亡灵。在本局对战中，你的亡灵拥有+5/+0<i>（无论它们在哪）。</i>",
+      "textZh": "消灭一个友方亡灵。在本局对战中，你的亡灵拥有+8攻击力<i>（无论它们在哪）。</i>8消灭一个友方亡灵。在本局对战中，你的亡灵拥有+8/+0<i>（无论它们在哪）。</i>",
       "tier": 5,
       "cardType": "spell",
       "minionTypes": [],
@@ -18981,7 +18978,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 3,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -20104,10 +20101,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -20350,6 +20347,137 @@
       "isBuddy": false
     },
     {
+      "id": 70136,
+      "cardId": "BG20_GEM",
+      "name": "Blood Gem",
+      "nameZh": "鲜血宝石",
+      "textZh": "使一个随从获得+1/+1。",
+      "cardType": "spell",
+      "minionTypes": [],
+      "attack": 0,
+      "health": 0,
+      "attackGold": 0,
+      "healthGold": 0,
+      "manaCost": 0,
+      "keywords": [],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [
+        72652,
+        71459,
+        126464,
+        100580,
+        126583,
+        100997,
+        101594,
+        126974,
+        114486,
+        127096,
+        127166,
+        77478,
+        127430,
+        127431,
+        127868,
+        127877,
+        103722,
+        104764,
+        104766,
+        104768,
+        128114,
+        128117,
+        104957,
+        130145,
+        130149,
+        130151,
+        130153,
+        130157,
+        70143,
+        70144,
+        70147,
+        70153,
+        70157,
+        70162,
+        70163,
+        70165,
+        70171,
+        70173,
+        70175,
+        70176,
+        70179,
+        70188,
+        116182,
+        116188,
+        116195,
+        80755,
+        80756,
+        117492,
+        112882,
+        113154,
+        113152,
+        132320,
+        120033,
+        120035,
+        120031,
+        132630,
+        120708,
+        120710,
+        132929,
+        122098,
+        122562,
+        122564,
+        122566,
+        122568,
+        122737,
+        134423,
+        126238,
+        75484,
+        97115,
+        98946,
+        98930,
+        113907,
+        113908,
+        126676,
+        110642,
+        116210,
+        116200,
+        116211,
+        116438,
+        116439,
+        116596,
+        132644,
+        132941,
+        133474,
+        115225,
+        115253,
+        130900,
+        130902,
+        130904,
+        130905,
+        130906,
+        131275,
+        111476,
+        111512,
+        111514,
+        112013,
+        117856,
+        112398,
+        113096,
+        120156,
+        120146,
+        120147,
+        121038,
+        121044,
+        121126,
+        121132,
+        134437,
+        104842
+      ],
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
       "id": 130698,
       "cardId": "BG20_GEM_DivineShield",
       "name": "Blood Gem",
@@ -20372,23 +20500,23 @@
         126464,
         100580,
         126583,
+        100997,
+        101594,
         126974,
         114486,
-        100997,
-        77478,
         127096,
         127166,
-        101594,
+        77478,
         127430,
         127431,
         127868,
         127877,
-        128114,
-        128117,
         103722,
         104764,
         104766,
         104768,
+        128114,
+        128117,
         104957,
         130145,
         130149,
@@ -20409,41 +20537,41 @@
         70176,
         70179,
         70188,
-        80755,
-        80756,
         116182,
         116188,
         116195,
+        80755,
+        80756,
         117492,
-        132320,
         112882,
         113154,
         113152,
-        132630,
-        132929,
+        132320,
+        120033,
         120035,
         120031,
-        120033,
+        132630,
         120708,
         120710,
-        134423,
+        132929,
         122098,
         122562,
         122564,
         122566,
         122568,
         122737,
-        97115,
+        134423,
         126238,
         75484,
+        97115,
         98946,
         98930,
         113907,
         113908,
         126676,
         110642,
-        116200,
         116210,
+        116200,
         116211,
         116438,
         116439,
@@ -20451,24 +20579,24 @@
         132644,
         132941,
         133474,
+        115225,
+        115253,
         130900,
         130902,
         130904,
         130905,
         130906,
-        115225,
-        115253,
         131275,
         111476,
         111512,
         111514,
         112013,
+        117856,
         112398,
         113096,
-        117856,
+        120156,
         120146,
         120147,
-        120156,
         121038,
         121044,
         121126,
@@ -20502,23 +20630,23 @@
         126464,
         100580,
         126583,
+        100997,
+        101594,
         126974,
         114486,
-        100997,
-        77478,
         127096,
         127166,
-        101594,
+        77478,
         127430,
         127431,
         127868,
         127877,
-        128114,
-        128117,
         103722,
         104764,
         104766,
         104768,
+        128114,
+        128117,
         104957,
         130145,
         130149,
@@ -20539,41 +20667,41 @@
         70176,
         70179,
         70188,
-        80755,
-        80756,
         116182,
         116188,
         116195,
+        80755,
+        80756,
         117492,
-        132320,
         112882,
         113154,
         113152,
-        132630,
-        132929,
+        132320,
+        120033,
         120035,
         120031,
-        120033,
+        132630,
         120708,
         120710,
-        134423,
+        132929,
         122098,
         122562,
         122564,
         122566,
         122568,
         122737,
-        97115,
+        134423,
         126238,
         75484,
+        97115,
         98946,
         98930,
         113907,
         113908,
         126676,
         110642,
-        116200,
         116210,
+        116200,
         116211,
         116438,
         116439,
@@ -20581,155 +20709,24 @@
         132644,
         132941,
         133474,
+        115225,
+        115253,
         130900,
         130902,
         130904,
         130905,
         130906,
-        115225,
-        115253,
         131275,
         111476,
         111512,
         111514,
         112013,
+        117856,
         112398,
         113096,
-        117856,
+        120156,
         120146,
         120147,
-        120156,
-        121038,
-        121044,
-        121126,
-        121132,
-        134437,
-        104842
-      ],
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 70136,
-      "cardId": "BG20_GEM",
-      "name": "Blood Gem",
-      "nameZh": "鲜血宝石",
-      "textZh": "使一个随从获得+1/+1。",
-      "cardType": "spell",
-      "minionTypes": [],
-      "attack": 0,
-      "health": 0,
-      "attackGold": 0,
-      "healthGold": 0,
-      "manaCost": 0,
-      "keywords": [],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [
-        72652,
-        71459,
-        126464,
-        100580,
-        126583,
-        126974,
-        114486,
-        100997,
-        77478,
-        127096,
-        127166,
-        101594,
-        127430,
-        127431,
-        127868,
-        127877,
-        128114,
-        128117,
-        103722,
-        104764,
-        104766,
-        104768,
-        104957,
-        130145,
-        130149,
-        130151,
-        130153,
-        130157,
-        70143,
-        70144,
-        70147,
-        70153,
-        70157,
-        70162,
-        70163,
-        70165,
-        70171,
-        70173,
-        70175,
-        70176,
-        70179,
-        70188,
-        80755,
-        80756,
-        116182,
-        116188,
-        116195,
-        117492,
-        132320,
-        112882,
-        113154,
-        113152,
-        132630,
-        132929,
-        120035,
-        120031,
-        120033,
-        120708,
-        120710,
-        134423,
-        122098,
-        122562,
-        122564,
-        122566,
-        122568,
-        122737,
-        97115,
-        126238,
-        75484,
-        98946,
-        98930,
-        113907,
-        113908,
-        126676,
-        110642,
-        116200,
-        116210,
-        116211,
-        116438,
-        116439,
-        116596,
-        132644,
-        132941,
-        133474,
-        130900,
-        130902,
-        130904,
-        130905,
-        130906,
-        115225,
-        115253,
-        131275,
-        111476,
-        111512,
-        111514,
-        112013,
-        112398,
-        113096,
-        117856,
-        120146,
-        120147,
-        120156,
         121038,
         121044,
         121126,
@@ -20759,10 +20756,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -20957,10 +20954,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -21236,10 +21233,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -21495,10 +21492,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -21665,10 +21662,10 @@
         116182,
         116434,
         116201,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -22089,10 +22086,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -22238,10 +22235,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -22858,10 +22855,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -23140,14 +23137,14 @@
       "childIds": [
         126533,
         68130,
-        129164,
         104985,
         104983,
+        129164,
         126522,
         127182,
         113128,
-        132923,
         119996,
+        132923,
         123075,
         64484,
         132441,
@@ -23188,14 +23185,14 @@
       "childIds": [
         126533,
         68130,
-        129164,
         104985,
         104983,
+        129164,
         126522,
         127182,
         113128,
-        132923,
         119996,
+        132923,
         123075,
         132441,
         130830,
@@ -23235,14 +23232,14 @@
       "childIds": [
         126533,
         68130,
-        129164,
         104985,
         104983,
+        129164,
         126522,
         127182,
         113128,
-        132923,
         119996,
+        132923,
         123075,
         132441,
         130830,
@@ -23447,11 +23444,11 @@
       "childIds": [
         59891,
         102495,
-        128099,
         103809,
+        128099,
         106657,
-        82516,
         118399,
+        82516,
         95328,
         133733,
         75166,
@@ -23518,8 +23515,8 @@
         61517,
         88945,
         102871,
-        128107,
         103798,
+        128107,
         111547,
         76340,
         77448
@@ -23549,8 +23546,8 @@
       "pool": true,
       "childIds": [
         81570,
-        128092,
         103825,
+        128092,
         111296,
         117880,
         96615,
@@ -23649,8 +23646,8 @@
       "childIds": [
         60381,
         77185,
-        92193,
         107786,
+        92193,
         80791,
         82056,
         95330,
@@ -23772,8 +23769,8 @@
         115377,
         80809,
         96581,
-        97932,
         76349,
+        97932,
         77475
       ],
       "companionId": 77475,
@@ -23865,8 +23862,8 @@
         88932,
         92220,
         131192,
-        80783,
         111549,
+        80783,
         82071,
         133728,
         77776
@@ -24101,8 +24098,8 @@
         61406,
         127887,
         130458,
-        94533,
         112474,
+        94533,
         120910,
         76341,
         98796,
@@ -24138,9 +24135,9 @@
         80574,
         94524,
         82512,
-        96576,
         123928,
         125871,
+        96576,
         99062,
         77784
       ],
@@ -24198,8 +24195,8 @@
       "childIds": [
         80244,
         103811,
-        92195,
         106632,
+        92195,
         115375,
         98789,
         77884
@@ -24288,8 +24285,8 @@
         88943,
         89705,
         128091,
-        80078,
         115389,
+        80078,
         131213,
         111663,
         82509,
@@ -24354,8 +24351,8 @@
         96872,
         114038,
         102876,
-        128093,
         103810,
+        128093,
         111297,
         101973
       ],
@@ -24499,9 +24496,9 @@
         78752,
         131187,
         80778,
+        120902,
         83646,
         133729,
-        120902,
         75172,
         77493
       ],
@@ -24565,8 +24562,8 @@
         88941,
         128105,
         106656,
-        96570,
         124122,
+        96570,
         98799,
         77494
       ],
@@ -24600,9 +24597,9 @@
         94525,
         94871,
         82391,
+        120912,
         95312,
         133739,
-        120912,
         77788
       ],
       "companionId": 77788,
@@ -24818,8 +24815,8 @@
       "childIds": [
         61851,
         77186,
-        82510,
         120908,
+        82510,
         124133,
         77626
       ],
@@ -24849,8 +24846,8 @@
       "childIds": [
         58537,
         78748,
-        82077,
         117883,
+        82077,
         95326,
         123927,
         124129,
@@ -24911,8 +24908,8 @@
       "childIds": [
         81572,
         102868,
-        128096,
         103813,
+        128096,
         115381,
         118400,
         97929,
@@ -25248,8 +25245,8 @@
         59808,
         78749,
         112483,
-        82508,
         118398,
+        82508,
         98795
       ],
       "companionId": 77798,
@@ -25373,8 +25370,8 @@
       "childIds": [
         113311,
         133736,
-        134857,
         125868,
+        134857,
         122323,
         118669
       ],
@@ -25559,9 +25556,9 @@
         106655,
         131212,
         80782,
+        118390,
         94874,
         82504,
-        118390,
         95309,
         133734,
         76351,
@@ -25594,8 +25591,8 @@
         90403,
         103807,
         107780,
-        131117,
         115391,
+        131117,
         124125,
         98656
       ],
@@ -25740,8 +25737,8 @@
       "pool": true,
       "childIds": [
         61491,
-        92179,
         107788,
+        92179,
         115378,
         95318,
         123926,
@@ -25774,8 +25771,8 @@
       "childIds": [
         82114,
         102917,
-        95327,
         120904,
+        95327,
         97927,
         77890
       ],
@@ -25902,8 +25899,8 @@
       "childIds": [
         59399,
         115379,
-        82078,
         112481,
+        82078,
         83651,
         133735,
         75174,
@@ -26000,8 +25997,8 @@
         115383,
         80812,
         83647,
-        96571,
         124132,
+        96571,
         77629
       ],
       "companionId": 77629,
@@ -26032,8 +26029,8 @@
         88936,
         78754,
         115376,
-        80810,
         111064,
+        80810,
         96580,
         77821
       ],
@@ -26062,8 +26059,8 @@
       "pool": true,
       "childIds": [
         122960,
-        80077,
         115386,
+        80077,
         131194,
         111545,
         94530,
@@ -26164,8 +26161,8 @@
         103801,
         106256,
         95320,
-        96561,
         124111,
+        96561,
         99063,
         77876
       ],
@@ -26197,8 +26194,8 @@
         102864,
         94872,
         95313,
-        134858,
         124123,
+        134858,
         77870
       ],
       "companionId": 77870,
@@ -26228,8 +26225,8 @@
         58028,
         102913,
         103818,
-        133725,
         120891,
+        133725,
         96569,
         76348,
         98790,
@@ -26296,8 +26293,8 @@
         57945,
         115392,
         131196,
-        83650,
         120909,
+        83650,
         76343,
         98800
       ],
@@ -26329,8 +26326,8 @@
         77180,
         88930,
         80781,
-        94535,
         118388,
+        94535,
         75168,
         77831
       ],
@@ -26456,8 +26453,8 @@
         127888,
         103817,
         94873,
-        133730,
         120907,
+        133730,
         98798,
         77874
       ],
@@ -26547,8 +26544,8 @@
       "pool": true,
       "childIds": [
         77911,
-        92194,
         107784,
+        92194,
         117881,
         95316,
         83633,
@@ -26651,8 +26648,8 @@
         112480,
         95314,
         123946,
-        97928,
         75178,
+        97928,
         77835
       ],
       "companionId": 77835,
@@ -26684,8 +26681,8 @@
         102923,
         112471,
         118397,
-        97922,
         76352,
+        97922,
         77837
       ],
       "companionId": 77837,
@@ -26713,8 +26710,8 @@
       "pool": true,
       "childIds": [
         58022,
-        80786,
         111061,
+        80786,
         94531,
         124115,
         77839
@@ -26778,10 +26775,10 @@
         58040,
         128103,
         80673,
-        82057,
         118386,
-        97931,
+        82057,
         75138,
+        97931,
         98797,
         77841
       ],
@@ -26843,8 +26840,8 @@
         128097,
         106653,
         112479,
-        83648,
         120913,
+        83648,
         97930,
         77843
       ],
@@ -26904,12 +26901,12 @@
       "pool": true,
       "childIds": [
         67357,
-        128100,
         103815,
+        128100,
         80811,
         83636,
-        97921,
         75136,
+        97921,
         77845
       ],
       "companionId": 77845,
@@ -27122,9 +27119,9 @@
         114039,
         92182,
         80790,
+        112477,
         94537,
         82076,
-        112477,
         95317,
         98810,
         77851
@@ -27634,10 +27631,10 @@
       "pool": true,
       "childIds": [
         77478,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "isToken": false,
       "isBuddy": false
@@ -30010,18 +30007,18 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
-        120364,
         120363,
+        120364,
         120365,
-        120381,
-        120383,
         120367,
-        120386,
         120370,
         120373,
-        120375,
-        120378,
         120359,
+        120381,
+        120375,
+        120383,
+        120378,
+        120386,
         122333
       ],
       "isToken": false,
@@ -30818,7 +30815,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 3,
       "keywords": [
         "End of Turn"
       ],
@@ -30848,7 +30845,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 2,
       "keywords": [
         "End of Turn"
       ],
@@ -30857,10 +30854,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -30904,7 +30901,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [
         "Aura"
       ],
@@ -30922,7 +30919,7 @@
       "cardId": "BG30_MagicItem_989t",
       "name": "Artisanal Urn",
       "nameZh": "艺匠之瓮",
-      "textZh": "你的亡灵拥有+15攻击力。",
+      "textZh": "你的亡灵拥有+20攻击力。",
       "cardType": "trinket",
       "minionType": "Undead",
       "minionTypes": [
@@ -31015,7 +31012,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 3,
       "keywords": [
         "Start of Combat"
       ],
@@ -31071,7 +31068,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -31123,7 +31120,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -31151,7 +31148,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -31265,7 +31262,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -31327,10 +31324,10 @@
       "pool": true,
       "childIds": [
         113097,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -31351,17 +31348,17 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "lesser",
       "isToken": false,
@@ -31389,10 +31386,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -31593,7 +31590,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -31619,7 +31616,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -31729,7 +31726,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 1,
       "keywords": [
         "Start of Turn"
       ],
@@ -31960,7 +31957,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32065,7 +32062,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 6,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32093,7 +32090,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32119,7 +32116,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32145,7 +32142,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 3,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32171,7 +32168,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 3,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32279,7 +32276,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 1,
       "keywords": [
         "Aura"
       ],
@@ -32416,7 +32413,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32604,7 +32601,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 1,
       "keywords": [
         "Aura",
         "Magnetic"
@@ -32713,7 +32710,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [
         "End of Turn"
       ],
@@ -32826,7 +32823,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 4,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32875,7 +32872,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 4,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -32987,7 +32984,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 6,
+      "manaCost": 7,
       "keywords": [
         "Aura"
       ],
@@ -33072,7 +33069,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [
         "Avenge"
       ],
@@ -33226,7 +33223,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [
         "Start of Turn"
       ],
@@ -33437,7 +33434,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [
         "Aura"
       ],
@@ -33446,10 +33443,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -33479,10 +33476,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "lesser",
       "isToken": false,
@@ -33503,7 +33500,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -33554,7 +33551,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 6,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -33582,7 +33579,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -33608,7 +33605,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 3,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -33635,7 +33632,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 3,
       "keywords": [
         "Aura"
       ],
@@ -33663,7 +33660,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 3,
       "keywords": [
         "Start of Combat"
       ],
@@ -33691,7 +33688,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 3,
       "keywords": [
         "Refresh"
       ],
@@ -33728,10 +33725,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "lesser",
       "isToken": false,
@@ -33777,7 +33774,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 5,
       "keywords": [
         "Aura"
       ],
@@ -33805,7 +33802,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [
         "End of Turn"
       ],
@@ -33836,7 +33833,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [
         "End of Turn"
       ],
@@ -33889,7 +33886,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -33969,7 +33966,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [
         "Spellcraft"
       ],
@@ -33999,7 +33996,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [
         "Spellcraft"
       ],
@@ -34036,10 +34033,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -34050,7 +34047,7 @@
       "cardId": "BG30_MagicItem_952",
       "name": "Jarred Frostling",
       "nameZh": "瓶装冰灵",
-      "textZh": "<b>战斗开始时：</b>\n使2个友方元素获得“<b>亡语：</b>召唤一个缤纷冰灵”。",
+      "textZh": "<b>战斗开始时：</b>\n使3个友方元素获得“<b>亡语：</b>召唤一个缤纷冰灵”。",
       "cardType": "trinket",
       "minionType": "Elemental",
       "minionTypes": [
@@ -34060,7 +34057,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [
         "Start of Combat"
       ],
@@ -34097,10 +34094,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "lesser",
       "isToken": false,
@@ -34163,7 +34160,7 @@
       "cardId": "BG30_MagicItem_951",
       "name": "Lava Lamp",
       "nameZh": "熔岩提灯",
-      "textZh": "在你出售7个\n随从后，随机获取一张元素牌。<i>（还剩7个！）</i>",
+      "textZh": "在你出售6个\n随从后，随机获取一张元素牌。<i>（还剩6个！）</i>",
       "cardType": "trinket",
       "minionType": "Elemental",
       "minionTypes": [
@@ -34280,7 +34277,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -34433,7 +34430,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 3,
       "keywords": [
         "Spellcraft"
       ],
@@ -34453,14 +34450,14 @@
       "cardId": "BG36_MagicItem_370",
       "name": "Maldraxxus Dagger",
       "nameZh": "玛卓克萨斯匕首",
-      "textZh": "<b>发现</b>一张你战队中随从的原始版复制，该复制具有<b>黑暗之赐</b>。在每个回合开始时，重复此效果。",
+      "textZh": "<b>发现</b>一个友方随从的原始版复制，该复制具有<b>黑暗之赐</b>。每2个回合，在回合开始时，重复此效果。<i>（还剩2回合！）</i>",
       "cardType": "trinket",
       "minionTypes": [],
       "attack": 0,
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 7,
+      "manaCost": 6,
       "keywords": [
         "Discover"
       ],
@@ -34539,7 +34536,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 4,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -34565,7 +34562,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 5,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -34623,7 +34620,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 4,
       "keywords": [
         "Aura"
       ],
@@ -34653,7 +34650,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -34750,7 +34747,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 5,
       "keywords": [
         "Aura"
       ],
@@ -34778,7 +34775,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [
         "End of Turn"
       ],
@@ -34883,7 +34880,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -34937,7 +34934,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -34986,7 +34983,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 3,
       "keywords": [
         "Discover"
       ],
@@ -35014,7 +35011,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 4,
       "keywords": [
         "Spellcraft"
       ],
@@ -35167,7 +35164,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 3,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -35304,7 +35301,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 6,
+      "manaCost": 5,
       "keywords": [
         "Discover"
       ],
@@ -35357,7 +35354,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 1,
       "keywords": [
         "Start of Turn"
       ],
@@ -35387,7 +35384,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [
         "Start of Combat"
       ],
@@ -35467,7 +35464,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [
         "Avenge"
       ],
@@ -35476,10 +35473,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -35509,10 +35506,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "lesser",
       "isToken": false,
@@ -35559,7 +35556,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 3,
       "keywords": [
         "Refresh"
       ],
@@ -35711,7 +35708,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -35740,7 +35737,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 4,
       "keywords": [
         "Aura"
       ],
@@ -35829,10 +35826,10 @@
       "isTimewarped": false,
       "pool": true,
       "childIds": [
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "lesser",
       "isToken": false,
@@ -35878,7 +35875,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -35930,7 +35927,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 6,
+      "manaCost": 4,
       "keywords": [
         "Start of Turn"
       ],
@@ -35950,7 +35947,7 @@
       "cardId": "BG32_MagicItem_232",
       "name": "Shark Cannon",
       "nameZh": "鲨鱼火炮",
-      "textZh": "在你花掉10枚铸币后，使你的海盗获得+1/+1并提升此效果。<i>（还剩10枚！）</i>",
+      "textZh": "在你花掉7枚铸币后，使你的海盗获得+1/+1并提升此效果。<i>（还剩7枚！）</i>",
       "cardType": "trinket",
       "minionType": "Pirate",
       "minionTypes": [
@@ -36117,7 +36114,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 5,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36133,7 +36130,7 @@
       "cardId": "BG36_MagicItem_430",
       "name": "Sludge Portrait",
       "nameZh": "腐泥肖像",
-      "textZh": "获取一张腐泥侵蚀。在你弃掉一张牌后，获取一张腐泥侵蚀。",
+      "textZh": "获取一张腐泥侵蚀。在你弃掉一张法术牌后，获取一张腐泥侵蚀。",
       "cardType": "trinket",
       "minionType": "Aberration",
       "minionTypes": [
@@ -36143,7 +36140,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 5,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36226,7 +36223,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 6,
       "keywords": [
         "Start of Combat"
       ],
@@ -36357,7 +36354,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36383,7 +36380,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 3,
       "keywords": [
         "Avenge"
       ],
@@ -36411,7 +36408,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36549,10 +36546,10 @@
       "pool": true,
       "childIds": [
         113152,
+        70136,
         130698,
         130699,
-        130700,
-        70136
+        130700
       ],
       "trinketTier": "greater",
       "isToken": false,
@@ -36644,7 +36641,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [
         "Discover"
       ],
@@ -36671,7 +36668,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [
         "Discover"
       ],
@@ -36751,7 +36748,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36802,7 +36799,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37060,7 +37057,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37087,7 +37084,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37139,7 +37136,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 4,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37165,7 +37162,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37295,7 +37292,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 2,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37397,7 +37394,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
