@@ -131,6 +131,11 @@ jobs:
           "DEPLOY=$($deploy.ToString().ToLower())" >> $env:GITHUB_OUTPUT
           "RELEASE_EXISTS=$($releaseExists.ToString().ToLower())" >> $env:GITHUB_OUTPUT
 
+          # `wrangler kv key get` 在键不存在时返回 1，而 GitHub Actions 的 pwsh 包装
+          # 会用「最后一个原生命令的退出码」结束这一步 —— 不显式清零的话，
+          # 明明判断成功也会被判成失败（后续部署步骤全被跳过）。
+          exit 0
+
       - name: Commit updated bg_cards.json
         if: steps.check.outputs.DEPLOY == 'true'
         shell: pwsh
