@@ -70,12 +70,18 @@ BattlegroundDB -> D:\coding\HDT_Reverse\BattlegroundDB\bin\Release\netstandard2.
 
 ### 步骤 3：更新版本号
 
-编辑 `D:\coding\HDT_Reverse\CloudflareBgdb\wrangler.toml`：
+版本号的唯一来源是 KV 的 `version` 键（Worker 优先读它）。手动更新时：
 
-```toml
-[vars]
-BGDB_VERSION = "35.6"  # 修改为新版本号
+```powershell
+cd D:\coding\HDT_Reverse\CloudflareBgdb
+wrangler kv key put --binding=BGDB_KV "version" "37.0.2" --remote
 ```
+
+`wrangler.toml` 里的 `BGDB_VERSION` 只是 KV 读不到时的兜底值，不要再手工改它——
+以前手工改它 + `wrangler deploy` 会把线上版本回滚成文件里的旧版本。
+
+> 版本号请以 `https://hsbg.cards/api/v1/healthz` 返回的 `patchDisplay` 为准。
+> 旧的 `/api/v1/patches` 端点已经下线（404），HsbgFetcher 现在只用 healthz。
 
 ### 步骤 4：上传 DLL 到 Cloudflare
 

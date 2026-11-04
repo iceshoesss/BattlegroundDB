@@ -6,16 +6,23 @@ on:
   workflow_dispatch:       # 手动触发
     inputs:
       force:
-        description: '强制部署（忽略版本检查）'
+        description: '强制部署（忽略版本/内容检查）'
         required: false
-        default: 'false'
+        default: false
         type: boolean
+
+# 同一时间只跑一个，避免两次运行互相覆盖 KV
+concurrency:
+  group: bgdb-build
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: windows-latest
     permissions:
       contents: write
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
     steps:
       - name: Checkout code
@@ -26,6 +33,7 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      # 抓取失败或版本号解析失败会直接让这一步失败（HsbgFetcher 返回非 0），不会再静默产出旧版本号
       - name: Fetch card data from hsbg.cards
         run: dotnet run --project HsbgFetcher
 
@@ -35,75 +43,162 @@ jobs:
       - name: Generate web cards.json
         run: node scripts/build-web-json.mjs BattlegroundDB/Data/bg_cards.json web-cards.json
 
-      - name: Get version and check if new
-        id: version
+      - name: Read version and content hash
+        id: meta
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          $json = Get-Content BattlegroundDB/Data/bg_cards.json -Raw -Encoding utf8 | ConvertFrom-Json
+          $version = "$($json.meta.version)".Trim()
+          $total = [int]$json.meta.totalCards
+
+          Write-Host "hsbg.cards 版本: $version / 卡牌数: $total"
+
+          # 版本号必须是形如 37.0.2 的真实 patch 号；否则说明上游解析出问题，宁可失败也不要发布假版本
+          if ($version -notmatch '^\d+\.\d+(\.\d+)?$') {
+            throw "版本号无效: '$version'（没有从 hsbg.cards 拿到 patch 版本，拒绝发布）"
+          }
+          if ($total -le 0) {
+            throw "卡牌数为 $total，拒绝发布"
+          }
+
+          # 内容指纹：用数据本体算，去掉每次都会变的 fetchedAt，
+          # 否则 web-cards.json 里的日期会让“每天都有变化”，部署闸门形同虚设。
+          $raw = Get-Content BattlegroundDB/Data/bg_cards.json -Raw -Encoding utf8
+          $stable = [regex]::Replace($raw, '"fetchedAt"\s*:\s*"[^"]*"', '"fetchedAt":""')
+          $sha = [System.Security.Cryptography.SHA256]::Create()
+          try {
+            $bytes = [System.Text.Encoding]::UTF8.GetBytes($stable)
+            $hash = ([BitConverter]::ToString($sha.ComputeHash($bytes)) -replace '-', '').ToLower()
+          } finally {
+            $sha.Dispose()
+          }
+
+          "VERSION=$version" >> $env:GITHUB_OUTPUT
+          "TOTAL=$total" >> $env:GITHUB_OUTPUT
+          "HASH=$hash" >> $env:GITHUB_OUTPUT
+
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
+      # 部署条件：强制触发 / 该版本没有 Release / 内容 hash 与线上不一致
+      # 只看 Release 是否存在的旧逻辑有两个坑：版本号被回退时永远“已存在”，
+      # 以及 hsbg 只改数值不升 patch 时永远不会部署。
+      - name: Decide whether to deploy
+        id: check
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $json = Get-Content BattlegroundDB/Data/bg_cards.json | ConvertFrom-Json
-          $version = $json.meta.version
-          echo "VERSION=$version" >> $env:GITHUB_OUTPUT
-          Write-Host "Current version: $version"
+          $ErrorActionPreference = 'Stop'
 
-          # 检查是否已存在该版本的 Release
-          $force = "${{ github.event.inputs.force }}"
-          $release = gh release list --json tagName --jq ".[].tagName" | Select-String "v$version"
-          if ($release -and $force -ne "true") {
-            echo "NEW_VERSION=false" >> $env:GITHUB_OUTPUT
-            Write-Host "Release v$version already exists, skipping deploy"
-          } else {
-            echo "NEW_VERSION=true" >> $env:GITHUB_OUTPUT
-            Write-Host "New version detected: $version (force: $force)"
+          $version = "${{ steps.meta.outputs.VERSION }}"
+          $hash = "${{ steps.meta.outputs.HASH }}"
+          $tag = "v$version"
+
+          # 精确匹配 tag：以前用 Select-String "v$version" 是正则子串匹配，
+          # v35.6 会命中 v35.6.2、v36.6 会命中 v36.6.3，导致新版本被误判为“已发布”。
+          $releaseExists = $true
+          try { gh release view $tag --json tagName *> $null } catch { }
+          if ($LASTEXITCODE -ne 0) {
+            $releaseExists = $false
           }
 
+          $remoteHash = ''
+          Push-Location CloudflareBgdb
+          try {
+            # 第一次跑时这个键还不存在，命令会失败——这是预期情况，不要当成错误
+            try { $out = wrangler kv key get --binding=BGDB_KV "json/hash" --remote 2>$null } catch { $out = $null }
+            if ($LASTEXITCODE -eq 0 -and $out) {
+              $remoteHash = ($out -join '').Trim()
+            }
+          } finally {
+            Pop-Location
+          }
+
+          $force = "${{ github.event.inputs.force }}" -eq 'true'
+          $contentChanged = $remoteHash -ne $hash
+          $deploy = $force -or (-not $releaseExists) -or $contentChanged
+
+          Write-Host "release ${tag} exists : $releaseExists"
+          Write-Host "kv hash              : '$remoteHash'"
+          Write-Host "new hash             : '$hash'"
+          Write-Host "content changed      : $contentChanged"
+          Write-Host "force                : $force"
+          Write-Host "=> deploy            : $deploy"
+
+          "DEPLOY=$($deploy.ToString().ToLower())" >> $env:GITHUB_OUTPUT
+          "RELEASE_EXISTS=$($releaseExists.ToString().ToLower())" >> $env:GITHUB_OUTPUT
+
       - name: Commit updated bg_cards.json
-        if: steps.version.outputs.NEW_VERSION == 'true'
+        if: steps.check.outputs.DEPLOY == 'true'
+        shell: pwsh
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add BattlegroundDB/Data/bg_cards.json
-          git diff --staged --quiet || git commit -m "chore: update bg_cards.json to v${{ steps.version.outputs.VERSION }}"
-          git push
 
-      - name: Install Wrangler
-        if: steps.version.outputs.NEW_VERSION == 'true'
-        run: npm install -g wrangler
+          if (git diff --staged --quiet) {
+            Write-Host "卡牌数据无变化，跳过提交"
+            exit 0
+          }
+
+          git commit -m "chore: update bg_cards.json to v${{ steps.meta.outputs.VERSION }}"
+
+          # 主干随时可能被手动提交推进，rebase 后重试，避免 push 被拒让整个部署白跑
+          for ($i = 1; $i -le 3; $i++) {
+            git pull --rebase --autostash origin ${{ github.ref_name }}
+            git push
+            if ($LASTEXITCODE -eq 0) { exit 0 }
+            Start-Sleep -Seconds 5
+          }
+
+          throw "git push 失败，无法提交 bg_cards.json"
 
       - name: Upload DLL and JSON to Cloudflare KV
-        if: steps.version.outputs.NEW_VERSION == 'true'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        if: steps.check.outputs.DEPLOY == 'true'
         shell: pwsh
         run: |
-          $version = "${{ steps.version.outputs.VERSION }}"
+          $version = "${{ steps.meta.outputs.VERSION }}"
+          $hash = "${{ steps.meta.outputs.HASH }}"
           $dllPath = "../BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll"
           $jsonPath = "../BattlegroundDB/Data/bg_cards.json"
           cd CloudflareBgdb
 
           wrangler kv key put --binding=BGDB_KV "dll/$version" --path=$dllPath --remote
+          if ($LASTEXITCODE -ne 0) { throw "上传 dll/$version 失败" }
           Write-Host "Uploaded KV dll/$version"
 
           # 完整卡牌 JSON：按版本存一份，再写 latest 指针
           wrangler kv key put --binding=BGDB_KV "json/$version" --path=$jsonPath --remote
+          if ($LASTEXITCODE -ne 0) { throw "上传 json/$version 失败" }
           wrangler kv key put --binding=BGDB_KV "json/latest" --path=$jsonPath --remote
+          if ($LASTEXITCODE -ne 0) { throw "上传 json/latest 失败" }
           Write-Host "Uploaded KV json/$version and json/latest"
 
-          # 设置更新时间
+          # Worker 的版本号以 KV 为唯一来源，wrangler.toml 只是兜底，
+          # 这样单独 wrangler deploy 也不会把线上版本回滚成文件里的旧值。
+          wrangler kv key put --binding=BGDB_KV "version" "$version" --remote
+          if ($LASTEXITCODE -ne 0) { throw "写入 KV version 失败" }
+
+          # 内容指纹，供下一次运行判断“数据变了但 patch 号没变”
+          wrangler kv key put --binding=BGDB_KV "json/hash" "$hash" --remote
+          if ($LASTEXITCODE -ne 0) { throw "写入 KV json/hash 失败" }
+          Write-Host "Uploaded KV version=$version json/hash=$hash"
+
           $updatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
           wrangler kv key put --binding=BGDB_KV "updatedAt" "$updatedAt" --remote
           Write-Host "Updated at: $updatedAt"
 
       - name: Verify upload
-        if: steps.version.outputs.NEW_VERSION == 'true'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        if: steps.check.outputs.DEPLOY == 'true'
         shell: pwsh
         run: |
           cd CloudflareBgdb
-          $version = "${{ steps.version.outputs.VERSION }}"
+          $version = "${{ steps.meta.outputs.VERSION }}"
 
-          foreach ($key in @("dll/$version", "json/$version", "json/latest")) {
+          foreach ($key in @("dll/$version", "json/$version", "json/latest", "version", "json/hash")) {
             $result = wrangler kv key get --binding=BGDB_KV $key --remote 2>&1
             if ($LASTEXITCODE -eq 0) {
               Write-Host "✓ Upload verified: $key exists in KV"
@@ -114,33 +209,21 @@ jobs:
             }
           }
 
-      - name: Update version and deploy Worker
-        if: steps.version.outputs.NEW_VERSION == 'true'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: Deploy Worker
+        if: steps.check.outputs.DEPLOY == 'true'
         shell: pwsh
         run: |
-          $version = "${{ steps.version.outputs.VERSION }}"
-          $tomlPath = "CloudflareBgdb/wrangler.toml"
-          (Get-Content $tomlPath) -replace 'BGDB_VERSION = ".*"', "BGDB_VERSION = `"$version`"" | Set-Content $tomlPath
           cd CloudflareBgdb
           wrangler deploy
+          if ($LASTEXITCODE -ne 0) { throw "wrangler deploy 失败" }
 
-      - name: Force deploy (if forced)
-        if: github.event.inputs.force == 'true'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          cd CloudflareBgdb
-          wrangler deploy
-
-      - name: Create GitHub Release
-        if: steps.version.outputs.NEW_VERSION == 'true'
+      - name: Create or update GitHub Release
+        if: steps.check.outputs.DEPLOY == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          $version = "${{ steps.version.outputs.VERSION }}"
+          $version = "${{ steps.meta.outputs.VERSION }}"
           $tag = "v$version"
           $dll = "BattlegroundDB/bin/Release/netstandard2.0/BattlegroundDB.dll"
           $fullJson = "BattlegroundDB/Data/bg_cards.json"
@@ -157,14 +240,14 @@ jobs:
             if ($LASTEXITCODE -ne 0) { exit 1 }
             Write-Host "Created release $tag"
           } else {
-            # 已存在（force 重跑）时覆盖同名资源，并补上缺失的 bg_cards.json
+            # 版本已存在（同一 patch 下数据有更新）时覆盖同名资源
             gh release upload $tag $dll $fullJson $webJson --clobber
             if ($LASTEXITCODE -ne 0) { exit 1 }
             Write-Host "Updated assets on existing release $tag"
           }
 
       - name: Trigger web rebuild (HBT Cards)
-        if: steps.version.outputs.NEW_VERSION == 'true'
+        if: steps.check.outputs.DEPLOY == 'true'
         env:
           GH_TOKEN: ${{ secrets.REPO_DISPATCH_TOKEN }}
         run: |

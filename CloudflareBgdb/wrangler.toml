@@ -9,5 +9,7 @@ id = "6cc33881facb4f43b6bfe4ce27510119"
 
 # 环境变量
 [vars]
-BGDB_VERSION = "35.6"
+# 仅作兜底。正常版本号来自 KV 的 `version` 键（CI 部署时写入），
+# 这样单独 wrangler deploy 不会把线上版本回滚成这里的历史值。
+BGDB_VERSION = "0.0.0"
 BGDB_FILENAME = "BattlegroundDB.dll"

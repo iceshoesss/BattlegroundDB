@@ -46,8 +46,24 @@ export default {
   },
 };
 
+/**
+ * 版本号以 KV 的 `version` 键为准（CI 每次部署时写入）。
+ * wrangler.toml 里的 BGDB_VERSION 只作兜底：否则任何人单独执行一次
+ * `wrangler deploy`（或旧工作流的 “force deploy” 步骤）都会把线上版本
+ * 回滚成文件里的历史值，出现“API 版本比数据还旧”的诡异状态。
+ */
+async function readVersion(env) {
+  try {
+    const fromKv = await env.BGDB_KV?.get('version');
+    if (fromKv && fromKv.trim()) return fromKv.trim();
+  } catch {
+    /* KV 不可用时落回环境变量 */
+  }
+  return env.BGDB_VERSION || '0.0.0';
+}
+
 async function handleVersion(env, headers) {
-  const version = env.BGDB_VERSION || '2.0.0';
+  const version = await readVersion(env);
   const filename = env.BGDB_FILENAME || 'BattlegroundDB.dll';
   const updatedAt = (await env.BGDB_KV?.get('updatedAt')) || null;
 
@@ -90,7 +106,7 @@ async function readJsonMeta(env) {
 }
 
 async function handleDownload(request, env, headers) {
-  const version = env.BGDB_VERSION || '2.0.0';
+  const version = await readVersion(env);
   const filename = env.BGDB_FILENAME || 'BattlegroundDB.dll';
 
   const dllKey = `dll/${version}`;
@@ -156,7 +172,7 @@ async function handleCardsJson(request, env, headers) {
   }
 
   // 尽量从内容里取版本号做 ETag
-  let version = env.BGDB_VERSION || '0';
+  let version = await readVersion(env);
   try {
     const data = JSON.parse(body);
     version = data?.meta?.version || version;

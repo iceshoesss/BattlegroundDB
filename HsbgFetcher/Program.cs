@@ -16,7 +16,21 @@ class Program
     private const string HsbgApiBase = "https://hsbg.cards/api/v1";
     private const string HearthstoneJsonZhCn = "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json";
 
-    static async Task Main(string[] args)
+    static async Task<int> Main(string[] args)
+    {
+        try
+        {
+            await RunAsync(args);
+            return 0;
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"\n❌ 失败: {ex.Message}");
+            return 1;
+        }
+    }
+
+    static async Task RunAsync(string[] args)
     {
         Console.WriteLine("=== HsbgFetcher - hsbg.cards 数据抓取器 ===\n");
 
@@ -32,11 +46,15 @@ class Program
         Console.Write("📡 获取 hsbg.cards 数据... ");
         var allCards = await FetchAllCards();
         Console.WriteLine($"✓ {allCards.Count} 张卡牌");
+        if (allCards.Count == 0)
+            throw new InvalidOperationException("hsbg.cards 返回 0 张卡牌，拒绝写出空数据");
 
         // 3. 合并数据并转换格式
         Console.Write("🔄 转换格式... ");
         var result = await MergeAndConvertAsync(allCards, zhCnMap, zhTextMap);
         Console.WriteLine($"✓ {result.Cards.Count} 张卡牌（已筛选 pool=true）");
+        if (result.Cards.Count == 0)
+            throw new InvalidOperationException("转换后卡牌数为 0，拒绝写出空数据");
 
         // 4. 保存 JSON
         var outputPath = Path.Combine(outputDir, "bg_cards.json");
@@ -184,30 +202,101 @@ class Program
         File.WriteAllText(path, json);
     }
 
+    /// <summary>
+    /// 解析 hsbg.cards 当前版本号。
+    ///
+    /// 历史坑：早期用 /api/v1/patches 的 currentPatch，但该端点已被官方下线（返回 404）。
+    /// 旧代码在请求失败时会“静默”返回写死的 "35.6"，于是：
+    ///   - 版本号永远变回 35.6，Release v35.6 早已存在 → CI 判定“不是新版本” → 后续步骤全部跳过；
+    ///   - 手动 force 时又把 35.6 当成新版本发布出去，KV 的 json/latest 和 Worker 版本被一起改回 35.6。
+    /// 所以这里必须：健康检查接口优先、失败就抛异常，绝不回退到任何写死的版本号。
+    /// </summary>
     static async Task<string> FetchLatestVersion()
     {
-        try
+        var errors = new List<string>();
+
+        var sources = new (string Name, string Url, Func<string, string?> Pick)[]
         {
-            var response = await HttpClient.GetAsync($"{HsbgApiBase}/patches");
-            response.EnsureSuccessStatusCode();
+            ("healthz", $"{HsbgApiBase}/healthz", ReadPatchDisplay),
+            ("patches", $"{HsbgApiBase}/patches", ReadLegacyCurrentPatch),
+        };
 
-            var json = await response.Content.ReadAsStringAsync();
-            var patches = JsonSerializer.Deserialize<HsbgPatchesResponse>(json);
-
-            if (patches?.Data != null && patches.Data.Count > 0)
+        foreach (var source in sources)
+        {
+            try
             {
-                // 获取最新的 patch
-                var latestPatch = patches.Data[0];
-                Console.Write($"(版本: {latestPatch.CurrentPatch}) ");
-                return latestPatch.CurrentPatch;
+                var version = await RetryAsync(() => FetchVersionAsync(source.Url, source.Pick));
+                if (!string.IsNullOrWhiteSpace(version) && PatchVersionRegex.IsMatch(version))
+                {
+                    Console.Write($"(版本: {version}) ");
+                    return version;
+                }
+
+                errors.Add($"{source.Name}: 响应中没有可用的版本号");
+            }
+            catch (Exception ex)
+            {
+                errors.Add($"{source.Name}: {ex.Message}");
             }
         }
-        catch (Exception ex)
+
+        throw new InvalidOperationException(
+            "无法从 hsbg.cards 解析最新版本号，已中止（不会回退到写死的旧版本）。" + string.Join(" | ", errors));
+    }
+
+    private static readonly Regex PatchVersionRegex = new(@"^\d+\.\d+(\.\d+)?$", RegexOptions.Compiled);
+
+    private static async Task<T> RetryAsync<T>(Func<Task<T>> action, int attempts = 3)
+    {
+        Exception? last = null;
+        for (var i = 1; i <= attempts; i++)
         {
-            Console.Write($"(获取版本失败: {ex.Message}, 使用默认版本) ");
+            try
+            {
+                return await action();
+            }
+            catch (Exception ex)
+            {
+                last = ex;
+                if (i < attempts)
+                    await Task.Delay(TimeSpan.FromSeconds(3 * i));
+            }
         }
 
-        return "35.6"; // 默认版本
+        throw last!;
+    }
+
+    private static async Task<string?> FetchVersionAsync(string url, Func<string, string?> pick)
+    {
+        using var response = await HttpClient.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+
+        var json = await response.Content.ReadAsStringAsync();
+        return pick(json);
+    }
+
+    /// <summary>当前 API：GET /api/v1/healthz → {"ok":true,"version":"1.0.0","cardsLoaded":2867,"patchDisplay":"37.0.2"}</summary>
+    private static string? ReadPatchDisplay(string json)
+    {
+        using var doc = JsonDocument.Parse(json);
+        if (doc.RootElement.ValueKind == JsonValueKind.Object &&
+            doc.RootElement.TryGetProperty("patchDisplay", out var element) &&
+            element.ValueKind == JsonValueKind.String)
+        {
+            return element.GetString()?.Trim();
+        }
+
+        return null;
+    }
+
+    /// <summary>旧 API：GET /api/v1/patches（已下线，仅作兼容兜底）</summary>
+    private static string? ReadLegacyCurrentPatch(string json)
+    {
+        var patches = JsonSerializer.Deserialize<HsbgPatchesResponse>(json,
+            new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+        var latest = patches?.Data?.FirstOrDefault();
+        return string.IsNullOrWhiteSpace(latest?.CurrentPatch) ? null : latest.CurrentPatch.Trim();
     }
 
     static bool IsTokenCard(HsbgCard card)
