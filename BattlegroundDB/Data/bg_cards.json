@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "37.0.2",
-    "fetchedAt": "2026-11-04T07:22:37.096Z",
+    "fetchedAt": "2026-11-04T08:59:57.346Z",
     "totalCards": 1466
   },
   "cards": [
@@ -24,6 +24,9 @@
       "manaCost": 0,
       "keywords": [
         "Taunt"
+      ],
+      "categories": [
+        "token"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -54,6 +57,9 @@
       "keywords": [
         "Venomous"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -82,6 +88,9 @@
       "manaCost": 0,
       "keywords": [
         "Venomous"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -117,6 +126,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -149,6 +161,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -226,6 +241,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -262,6 +280,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -291,6 +312,9 @@
       "keywords": [
         "Venomous"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -319,6 +343,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -350,6 +377,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -379,6 +409,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -406,6 +439,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -435,6 +471,9 @@
       "keywords": [
         "Divine Shield",
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -468,6 +507,9 @@
         "Divine Shield",
         "Windfury"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -495,6 +537,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -527,6 +572,9 @@
       "keywords": [
         "Venomous"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -554,6 +602,9 @@
       "healthGold": 1,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -587,6 +638,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -616,6 +670,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -643,6 +700,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -672,6 +732,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -700,6 +763,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -730,6 +796,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -762,6 +831,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -791,6 +863,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -820,6 +895,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -848,6 +926,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -880,6 +961,9 @@
       "keywords": [
         "Reborn"
       ],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -906,6 +990,9 @@
       "keywords": [
         "Windfury",
         "Rally"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -934,6 +1021,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -965,6 +1055,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -990,6 +1083,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1023,6 +1119,9 @@
         "End of Turn",
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1052,6 +1151,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1075,6 +1177,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1107,6 +1212,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1134,6 +1242,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1162,6 +1273,9 @@
       "manaCost": 0,
       "keywords": [
         "Taunt"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1192,6 +1306,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1220,6 +1337,9 @@
       "manaCost": 0,
       "keywords": [
         "Taunt"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1250,6 +1370,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1278,6 +1401,9 @@
       "manaCost": 0,
       "keywords": [
         "Taunt"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1308,6 +1434,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1337,6 +1466,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1361,6 +1493,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1386,6 +1521,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1417,6 +1555,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1453,6 +1594,9 @@
         "Taunt",
         "Reborn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1479,6 +1623,9 @@
       "keywords": [
         "Taunt",
         "End of Turn"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1507,6 +1654,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1533,6 +1683,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1557,6 +1710,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1588,6 +1744,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1616,6 +1775,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1648,6 +1810,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1676,6 +1841,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1709,6 +1877,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1738,6 +1909,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1766,6 +1940,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1793,6 +1970,9 @@
       "healthGold": 2,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1822,6 +2002,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1852,6 +2035,9 @@
       "manaCost": 0,
       "keywords": [
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -1885,6 +2071,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1914,6 +2103,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1943,6 +2135,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1972,6 +2167,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "token"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -1999,6 +2197,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2030,6 +2231,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2055,6 +2259,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2083,6 +2290,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2110,6 +2320,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2141,6 +2354,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2167,6 +2383,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2194,6 +2413,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2223,6 +2445,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2255,6 +2480,9 @@
       "keywords": [
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2283,6 +2511,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2314,6 +2545,9 @@
         "Divine Shield",
         "Reborn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2339,6 +2573,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2376,6 +2613,9 @@
         "Discover",
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2404,6 +2644,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2439,6 +2682,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2470,6 +2716,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2499,6 +2748,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2529,6 +2781,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2561,6 +2816,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2591,6 +2849,9 @@
       "manaCost": 0,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2623,6 +2884,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2651,6 +2915,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2675,6 +2942,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2707,6 +2977,9 @@
         "Battlecry",
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2735,6 +3008,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2768,6 +3044,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2799,6 +3078,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2834,6 +3116,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2862,6 +3147,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2889,6 +3177,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -2919,6 +3210,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -2947,6 +3241,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -2982,6 +3279,9 @@
       "keywords": [
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3011,6 +3311,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3036,6 +3339,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3064,6 +3370,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3095,6 +3404,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3124,6 +3436,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3150,6 +3465,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3179,6 +3497,9 @@
         "Stealth",
         "Avenge"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3207,6 +3528,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3238,6 +3562,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3267,6 +3594,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3292,6 +3622,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3322,6 +3655,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3346,6 +3682,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3375,6 +3714,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3400,6 +3742,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3430,6 +3775,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3464,6 +3812,9 @@
       "keywords": [
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3492,6 +3843,9 @@
       "manaCost": 0,
       "keywords": [
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3528,6 +3882,9 @@
         "Deathrattle",
         "Reborn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3555,6 +3912,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3585,6 +3945,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3614,6 +3977,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3643,6 +4009,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3672,6 +4041,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3702,6 +4074,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3731,6 +4106,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3762,6 +4140,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3789,6 +4170,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3821,6 +4205,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3848,6 +4235,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3875,6 +4265,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3902,6 +4295,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3932,6 +4328,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -3964,6 +4363,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -3995,6 +4397,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4020,6 +4425,9 @@
       "manaCost": 0,
       "keywords": [
         "Pass"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -4048,6 +4456,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4075,6 +4486,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4106,6 +4520,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4136,6 +4553,9 @@
         "Start of Turn",
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4165,6 +4585,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4197,6 +4620,9 @@
         "Taunt",
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4228,6 +4654,9 @@
         "Divine Shield",
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4256,6 +4685,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4286,6 +4718,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4313,6 +4748,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4339,6 +4777,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4370,6 +4811,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4399,6 +4843,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4425,6 +4872,9 @@
       "keywords": [
         "Taunt",
         "Deathrattle"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4457,6 +4907,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4486,6 +4939,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4513,6 +4969,9 @@
       "manaCost": 0,
       "keywords": [
         "Venomous"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4542,6 +5001,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4575,6 +5037,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4604,6 +5069,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4629,6 +5097,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4658,6 +5129,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -4689,6 +5163,9 @@
         "Deathrattle",
         "Reborn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4717,6 +5194,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4754,6 +5234,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4781,6 +5264,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4812,6 +5298,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4846,6 +5335,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4874,6 +5366,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4905,6 +5400,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -4939,6 +5437,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4965,6 +5466,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -4990,6 +5494,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5018,6 +5525,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5050,6 +5560,9 @@
       "keywords": [
         "Pass"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5079,6 +5592,9 @@
       "keywords": [
         "Taunt",
         "Deathrattle"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5111,6 +5627,9 @@
       "keywords": [
         "Start of Turn"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5142,6 +5661,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5171,6 +5693,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5199,6 +5724,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5230,6 +5758,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5263,6 +5794,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5292,6 +5826,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5322,6 +5859,9 @@
       "keywords": [
         "End of Turn",
         "Pass"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -5354,6 +5894,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5379,6 +5922,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5407,6 +5953,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -5439,6 +5988,9 @@
       "keywords": [
         "Start of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5470,6 +6022,9 @@
         "Reborn",
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5497,6 +6052,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5527,6 +6085,9 @@
         "Aura",
         "Avenge"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5554,6 +6115,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5586,6 +6150,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5615,6 +6182,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5643,6 +6213,9 @@
       "manaCost": 0,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5673,6 +6246,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5697,6 +6273,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5728,6 +6307,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -5763,6 +6345,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5794,6 +6379,9 @@
       "keywords": [
         "Choose One"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5824,6 +6412,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5855,6 +6446,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5884,6 +6478,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5912,6 +6509,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -5941,6 +6541,9 @@
       "keywords": [
         "Start of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -5969,6 +6572,9 @@
       "manaCost": 1,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6003,6 +6609,9 @@
         "Divine Shield",
         "Reborn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6031,6 +6640,9 @@
       "manaCost": 1,
       "keywords": [
         "Spellcraft"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6063,6 +6675,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6090,6 +6705,9 @@
       "healthGold": 2,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6115,6 +6733,9 @@
       "manaCost": 1,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6146,6 +6767,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6173,6 +6797,9 @@
       "healthGold": 16,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6201,6 +6828,9 @@
       "manaCost": 2,
       "keywords": [
         "Spellcraft"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6234,6 +6864,9 @@
         "Divine Shield",
         "Avenge"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6265,6 +6898,9 @@
         "Windfury",
         "Reborn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6292,6 +6928,9 @@
       "healthGold": 18,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6320,6 +6959,9 @@
       "manaCost": 1,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6350,6 +6992,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6374,6 +7019,9 @@
       "healthGold": 14,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6401,6 +7049,9 @@
       "healthGold": 20,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6430,6 +7081,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6458,6 +7112,9 @@
       "manaCost": 2,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6493,6 +7150,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6517,6 +7177,9 @@
       "healthGold": 14,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6544,6 +7207,9 @@
       "healthGold": 10,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6572,6 +7238,9 @@
       "manaCost": 2,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6608,6 +7277,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6633,6 +7305,9 @@
       "manaCost": 2,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6664,6 +7339,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6693,6 +7371,9 @@
       "keywords": [
         "Avenge"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6721,6 +7402,9 @@
       "manaCost": 1,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6753,6 +7437,9 @@
         "Start of Turn",
         "Discover"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6780,6 +7467,9 @@
       "healthGold": 12,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6813,6 +7503,9 @@
       "keywords": [
         "Avenge"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6844,6 +7537,9 @@
         "Deathrattle",
         "Reborn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6873,6 +7569,9 @@
       "healthGold": 16,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6907,6 +7606,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6935,6 +7637,9 @@
       "manaCost": 2,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -6965,6 +7670,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -6992,6 +7700,9 @@
       "healthGold": 8,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7020,6 +7731,9 @@
       "manaCost": 1,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -7051,6 +7765,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7080,6 +7797,9 @@
       "healthGold": 8,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7110,6 +7830,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7138,6 +7861,9 @@
       "manaCost": 2,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -7170,6 +7896,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7200,6 +7929,9 @@
         "Taunt",
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7229,6 +7961,9 @@
       "healthGold": 12,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7258,6 +7993,9 @@
       "healthGold": 10,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7288,6 +8026,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7314,6 +8055,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7339,6 +8083,9 @@
       "manaCost": 1,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -7369,6 +8116,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7393,6 +8143,9 @@
       "healthGold": 16,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7419,6 +8172,9 @@
       "keywords": [
         "Stealth",
         "Start of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": true,
@@ -7448,6 +8204,9 @@
       "healthGold": 12,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -7475,6 +8234,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7506,6 +8268,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7536,6 +8301,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7567,6 +8335,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7593,6 +8364,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7620,6 +8394,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7649,6 +8426,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7676,6 +8456,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7704,6 +8487,9 @@
       "keywords": [
         "Venomous",
         "Immune"
+      ],
+      "categories": [
+        "heroPower"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -7734,6 +8520,9 @@
       "keywords": [
         "Pass"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7759,6 +8548,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -7791,6 +8583,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7820,6 +8615,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7847,6 +8645,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7876,6 +8677,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7903,6 +8707,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7928,6 +8735,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "darkmoon"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -7956,6 +8766,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -7986,6 +8799,9 @@
         "Battlecry",
         "Refresh"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8013,6 +8829,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8043,6 +8862,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8067,6 +8889,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8098,6 +8923,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8123,6 +8951,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8153,6 +8984,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8182,6 +9016,9 @@
       "keywords": [
         "Windfury",
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8215,6 +9052,9 @@
         "Taunt",
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8244,6 +9084,9 @@
       "keywords": [
         "Start of Turn",
         "Discover"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8276,6 +9119,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8303,6 +9149,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8331,6 +9180,9 @@
       "manaCost": 0,
       "keywords": [
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8362,6 +9214,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8391,6 +9246,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8417,6 +9275,9 @@
       "keywords": [
         "Aura",
         "Refresh"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8449,6 +9310,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8476,6 +9340,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8505,6 +9372,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8529,6 +9399,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8561,6 +9434,9 @@
         "Divine Shield",
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8586,6 +9462,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8619,6 +9498,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8650,6 +9532,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8680,6 +9565,9 @@
         "Aura",
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8705,6 +9593,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8732,6 +9623,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8761,6 +9655,9 @@
       "healthGold": 4,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8790,6 +9687,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8818,6 +9718,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8851,6 +9754,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8882,6 +9788,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8912,6 +9821,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -8940,6 +9852,9 @@
       "manaCost": 0,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -8973,6 +9888,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9000,6 +9918,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9033,6 +9954,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9064,6 +9988,9 @@
       "keywords": [
         "Avenge"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9091,6 +10018,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9118,6 +10048,9 @@
         "Start of Turn",
         "Discover",
         "Pass"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -9148,6 +10081,9 @@
         "Start of Turn",
         "Discover",
         "Pass"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -9180,6 +10116,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9206,6 +10145,9 @@
       "keywords": [
         "Stealth",
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9236,6 +10178,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9264,6 +10209,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9291,6 +10239,9 @@
         "Divine Shield",
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9316,6 +10267,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9348,6 +10302,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9376,6 +10333,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9408,6 +10368,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9437,6 +10400,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9462,6 +10428,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9490,6 +10459,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9523,6 +10495,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9554,6 +10529,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9583,6 +10561,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9609,6 +10590,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9635,6 +10619,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9664,6 +10651,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9689,6 +10679,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9722,6 +10715,9 @@
         "Battlecry",
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9753,6 +10749,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9782,6 +10781,9 @@
       "healthGold": 2,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9813,6 +10815,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9843,6 +10848,9 @@
         "Discover",
         "Pass"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9870,6 +10878,9 @@
       "healthGold": 20,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9897,6 +10908,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9929,6 +10943,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -9959,6 +10976,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -9992,6 +11012,9 @@
         "Battlecry",
         "Discover"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10023,6 +11046,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10052,6 +11078,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10080,6 +11109,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10112,6 +11144,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10143,6 +11178,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10173,6 +11211,9 @@
       "manaCost": 0,
       "keywords": [
         "Magnetic"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10206,6 +11247,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10237,6 +11281,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10265,6 +11312,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10298,6 +11348,9 @@
         "Deathrattle",
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10327,6 +11380,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10352,6 +11408,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10387,6 +11446,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10414,6 +11476,9 @@
         "Divine Shield",
         "Windfury",
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10444,6 +11509,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10472,6 +11540,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10505,6 +11576,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10537,6 +11611,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10562,6 +11639,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10594,6 +11674,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10622,6 +11705,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10649,6 +11735,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10676,6 +11765,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10705,6 +11797,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10731,6 +11826,9 @@
       "healthGold": 18,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10763,6 +11861,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10793,6 +11894,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -10825,6 +11929,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10856,6 +11963,9 @@
       "keywords": [
         "Start of Turn"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10885,6 +11995,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10914,6 +12027,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10944,6 +12060,9 @@
         "Venomous",
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -10969,6 +12088,9 @@
       "manaCost": 3,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11004,6 +12126,9 @@
         "Battlecry",
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11033,6 +12158,9 @@
       "keywords": [
         "Avenge"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11060,6 +12188,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11089,6 +12220,9 @@
       "manaCost": 0,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11122,6 +12256,9 @@
         "Battlecry",
         "Discover"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11153,6 +12290,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11183,6 +12323,9 @@
         "Divine Shield",
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11210,6 +12353,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11239,6 +12385,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11266,6 +12415,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11295,6 +12447,9 @@
       "keywords": [
         "Deathrattle",
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11328,6 +12483,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11358,6 +12516,9 @@
       "manaCost": 0,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11390,6 +12551,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11417,6 +12581,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11450,6 +12617,9 @@
         "Deathrattle",
         "Reborn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11480,6 +12650,9 @@
       "manaCost": 0,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11512,6 +12685,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11543,6 +12719,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11573,6 +12752,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11603,6 +12785,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11631,6 +12816,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11665,6 +12853,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11696,6 +12887,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11724,6 +12918,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11754,6 +12951,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11783,6 +12983,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11812,6 +13015,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11840,6 +13046,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -11876,6 +13085,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11905,6 +13117,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11929,6 +13144,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11958,6 +13176,9 @@
       "healthGold": 24,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -11983,6 +13204,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12013,6 +13237,9 @@
       "keywords": [
         "Avenge"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12040,6 +13267,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12067,6 +13297,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12097,6 +13330,9 @@
       "healthGold": 18,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12126,6 +13362,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12153,6 +13392,9 @@
       "healthGold": 18,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12181,6 +13423,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12211,6 +13456,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12240,6 +13488,9 @@
       "keywords": [
         "Deathrattle",
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12273,6 +13524,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12305,6 +13559,9 @@
         "Battlecry",
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12336,6 +13593,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12366,6 +13626,9 @@
       "manaCost": 0,
       "keywords": [
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12401,6 +13664,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12427,6 +13693,9 @@
       "keywords": [
         "Battlecry",
         "Discover"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12456,6 +13725,9 @@
       "manaCost": 0,
       "keywords": [
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12491,6 +13763,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12519,6 +13794,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12549,6 +13827,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12578,6 +13859,9 @@
       "healthGold": 18,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12606,6 +13890,9 @@
       "healthGold": 6,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12637,6 +13924,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12667,6 +13957,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12694,6 +13987,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12722,6 +14018,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12754,6 +14053,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12785,6 +14087,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12810,6 +14115,9 @@
       "manaCost": 0,
       "keywords": [
         "Battlecry"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -12840,6 +14148,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12869,6 +14180,9 @@
       "healthGold": 8,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -12896,6 +14210,9 @@
       "healthGold": 16,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -12923,6 +14240,9 @@
       "healthGold": 10,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -12950,6 +14270,9 @@
       "healthGold": 10,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -12978,6 +14301,9 @@
       "manaCost": 1,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13013,6 +14339,9 @@
       "keywords": [
         "Taunt"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13041,6 +14370,9 @@
       "manaCost": 1,
       "keywords": [
         "Start of Turn"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13077,6 +14409,9 @@
         "Windfury",
         "Rally"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13112,6 +14447,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13140,6 +14478,9 @@
       "manaCost": 2,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13170,6 +14511,9 @@
       "healthGold": 16,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13199,6 +14543,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13226,6 +14573,9 @@
       "healthGold": 24,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13254,6 +14604,9 @@
       "healthGold": 24,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13282,6 +14635,9 @@
       "manaCost": 2,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13312,6 +14668,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13340,6 +14699,9 @@
       "manaCost": 1,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13374,6 +14736,9 @@
       "healthGold": 30,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13403,6 +14768,9 @@
       "keywords": [
         "Taunt",
         "Spellcraft"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13436,6 +14804,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13465,6 +14836,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13493,6 +14867,9 @@
       "healthGold": 24,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13522,6 +14899,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13550,6 +14930,9 @@
       "manaCost": 1,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13582,6 +14965,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13609,6 +14995,9 @@
       "healthGold": 14,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13636,6 +15025,9 @@
       "healthGold": 16,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13665,6 +15057,9 @@
       "keywords": [
         "Stealth"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13692,6 +15087,9 @@
       "healthGold": 14,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13719,6 +15117,9 @@
       "healthGold": 18,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": true,
       "isTimewarped": true,
@@ -13749,6 +15150,9 @@
         "Deathrattle",
         "Reborn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13778,6 +15182,9 @@
       "healthGold": 4,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13805,6 +15212,9 @@
       "healthGold": 14,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13833,6 +15243,9 @@
       "manaCost": 2,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -13863,6 +15276,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13892,6 +15308,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13919,6 +15338,9 @@
       "healthGold": 12,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13948,6 +15370,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -13972,6 +15397,9 @@
       "healthGold": 24,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14003,6 +15431,9 @@
         "Battlecry",
         "Rally"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14032,6 +15463,9 @@
       "healthGold": 24,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14056,6 +15490,9 @@
       "healthGold": 20,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14083,6 +15520,9 @@
       "healthGold": 26,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14112,6 +15552,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14139,6 +15582,9 @@
       "healthGold": 10,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14166,6 +15612,9 @@
       "healthGold": 26,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14195,6 +15644,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14223,6 +15675,9 @@
       "manaCost": 1,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14254,6 +15709,9 @@
       "manaCost": 1,
       "keywords": [
         "Avenge"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14287,6 +15745,9 @@
         "End of Turn",
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14315,6 +15776,9 @@
       "manaCost": 1,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14345,6 +15809,9 @@
       "healthGold": 12,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14374,6 +15841,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14398,6 +15868,9 @@
       "healthGold": 14,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14428,6 +15901,9 @@
         "Divine Shield",
         "Rally"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14455,6 +15931,9 @@
       "healthGold": 22,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14482,6 +15961,9 @@
       "healthGold": 4,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14509,6 +15991,9 @@
       "healthGold": 28,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14536,6 +16021,9 @@
       "healthGold": 28,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14566,6 +16054,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14595,6 +16086,9 @@
       "keywords": [
         "Deathrattle",
         "Avenge"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14628,6 +16122,9 @@
         "Divine Shield",
         "End of Turn"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14660,6 +16157,9 @@
       "keywords": [
         "Spellcraft"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14691,6 +16191,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14718,6 +16221,9 @@
       "healthGold": 10,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14743,6 +16249,9 @@
       "manaCost": 1,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14771,6 +16280,9 @@
       "healthGold": 16,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14799,6 +16311,9 @@
       "manaCost": 1,
       "keywords": [
         "Magnetic"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14830,6 +16345,9 @@
         "Taunt",
         "Deathrattle"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14859,6 +16377,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -14884,6 +16405,9 @@
       "manaCost": 0,
       "keywords": [
         "Aura"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14915,6 +16439,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -14949,6 +16476,9 @@
         "Battlecry",
         "Rally"
       ],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -14980,6 +16510,9 @@
       "keywords": [
         "Divine Shield"
       ],
+      "categories": [
+        "heroPower"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15006,6 +16539,9 @@
       "keywords": [
         "Spellcraft",
         "Pass"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -15036,6 +16572,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15062,6 +16601,9 @@
       "keywords": [
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15087,6 +16629,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15119,6 +16664,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15150,6 +16698,9 @@
         "Windfury",
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15179,6 +16730,9 @@
       "healthGold": 14,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15207,6 +16761,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15238,6 +16795,9 @@
         "Deathrattle",
         "Avenge"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15265,6 +16825,9 @@
       "healthGold": 22,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15293,6 +16856,9 @@
       "manaCost": 0,
       "keywords": [
         "Divine Shield"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15323,6 +16889,9 @@
       "healthGold": 20,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15355,6 +16924,9 @@
         "Divine Shield",
         "Aura"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15384,6 +16956,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15411,6 +16986,9 @@
       "healthGold": 12,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15442,6 +17020,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15469,6 +17050,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15497,6 +17081,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -15530,6 +17117,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15558,6 +17148,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15582,6 +17175,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15612,6 +17208,9 @@
       "manaCost": 0,
       "keywords": [
         "Deathrattle"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15644,6 +17243,9 @@
       "keywords": [
         "Deathrattle",
         "Battlecry"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15679,6 +17281,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15710,6 +17315,9 @@
       "healthGold": 10,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15735,6 +17343,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15765,6 +17376,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15790,6 +17404,9 @@
       "manaCost": 0,
       "keywords": [
         "End of Turn"
+      ],
+      "categories": [
+        "buddy"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15820,6 +17437,9 @@
       "healthGold": 18,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "buddy"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15849,6 +17469,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15879,6 +17502,9 @@
         "Aura",
         "Magnetic"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15906,6 +17532,9 @@
       "healthGold": 16,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15940,6 +17569,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -15967,6 +17599,9 @@
       "manaCost": 0,
       "keywords": [
         "Activate"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -15997,6 +17632,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16024,6 +17662,9 @@
       "healthGold": 18,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16053,6 +17694,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16081,6 +17725,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -16119,6 +17766,9 @@
       "keywords": [
         "Activate"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16153,6 +17803,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16184,6 +17837,9 @@
       "keywords": [
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16214,6 +17870,9 @@
         "Deathrattle",
         "Battlecry"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16243,6 +17902,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16270,6 +17932,9 @@
         "Deathrattle",
         "Battlecry",
         "Rally"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -16300,6 +17965,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16329,6 +17997,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16356,6 +18027,9 @@
       "healthGold": 20,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16383,6 +18057,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -16413,6 +18090,9 @@
       "healthGold": 26,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16440,6 +18120,9 @@
       "healthGold": 60,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16470,6 +18153,9 @@
         "Deathrattle",
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16497,6 +18183,9 @@
       "healthGold": 20,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16526,6 +18215,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16552,6 +18244,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16575,6 +18270,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16600,6 +18298,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16625,6 +18326,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16650,6 +18354,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16675,6 +18382,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16700,6 +18410,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16725,6 +18438,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16752,6 +18468,9 @@
       "keywords": [
         "Choose One"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16778,6 +18497,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16803,6 +18525,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16828,6 +18553,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16853,6 +18581,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16878,6 +18609,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16903,6 +18637,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16928,6 +18665,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16953,6 +18693,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -16978,6 +18721,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17001,6 +18747,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17026,6 +18775,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17053,6 +18805,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17076,6 +18831,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17099,6 +18857,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17124,6 +18885,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17149,6 +18913,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17174,6 +18941,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17199,6 +18969,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17224,6 +18997,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17249,6 +19025,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17274,6 +19053,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17297,6 +19079,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17322,6 +19107,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17345,6 +19133,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17370,6 +19161,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17395,6 +19189,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17420,6 +19217,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17445,6 +19245,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17470,6 +19273,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17495,6 +19301,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17520,6 +19329,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17558,6 +19370,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17586,6 +19401,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17609,6 +19427,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17634,6 +19455,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17657,6 +19481,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17684,6 +19511,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17711,6 +19541,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17738,6 +19571,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17765,6 +19601,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17792,6 +19631,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17819,6 +19661,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17846,6 +19691,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17869,6 +19717,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17895,6 +19746,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17920,6 +19774,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17943,6 +19800,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17966,6 +19826,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -17991,6 +19854,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18014,6 +19880,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18041,6 +19910,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18066,6 +19938,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18089,6 +19964,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18112,6 +19990,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18135,6 +20016,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18160,6 +20044,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18183,6 +20070,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18206,6 +20096,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18229,6 +20122,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18254,6 +20150,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18277,6 +20176,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18300,6 +20202,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18323,6 +20228,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18346,6 +20254,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18371,6 +20282,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18394,6 +20308,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18418,6 +20335,9 @@
       "manaCost": 4,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -18446,6 +20366,9 @@
       "keywords": [
         "Pass"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18469,6 +20392,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18494,6 +20420,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18519,6 +20448,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18544,6 +20476,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18569,6 +20504,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18594,6 +20532,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18619,6 +20560,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18644,6 +20588,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18669,6 +20616,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18694,6 +20644,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18719,6 +20672,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18746,6 +20702,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18769,6 +20728,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18792,6 +20754,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18815,6 +20780,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18840,6 +20808,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18863,6 +20834,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18892,6 +20866,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -18919,6 +20896,9 @@
       "manaCost": 4,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -18948,6 +20928,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -18972,6 +20955,9 @@
       "manaCost": 2,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -18998,6 +20984,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -19023,6 +21012,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -19048,6 +21040,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -19071,6 +21066,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -19096,6 +21094,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19119,6 +21120,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -19143,6 +21147,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "darkmoon"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -19169,6 +21176,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19192,6 +21202,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19215,6 +21228,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19238,6 +21254,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19263,6 +21282,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19288,6 +21310,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19313,6 +21338,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19340,6 +21368,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19365,6 +21396,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19399,6 +21433,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19426,6 +21463,9 @@
       "keywords": [
         "Choose One"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19452,6 +21492,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19478,6 +21521,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19501,6 +21547,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19528,6 +21577,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19551,6 +21603,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19574,6 +21629,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19597,6 +21655,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19626,6 +21687,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19649,6 +21713,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19672,6 +21739,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19697,6 +21767,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19722,6 +21795,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19748,6 +21824,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19774,6 +21853,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19797,6 +21879,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkmoon"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19820,6 +21905,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19846,6 +21934,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19873,6 +21964,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19899,6 +21993,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19929,6 +22026,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19954,6 +22054,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -19979,6 +22082,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20003,6 +22109,9 @@
       "manaCost": 5,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "tavern"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -20029,6 +22138,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20052,6 +22164,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20078,6 +22193,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20105,6 +22223,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20128,6 +22249,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20153,6 +22277,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20179,6 +22306,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20206,6 +22336,9 @@
       "keywords": [
         "Choose One"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20232,6 +22365,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20257,6 +22393,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20282,6 +22421,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20307,6 +22449,9 @@
       "healthGold": 0,
       "manaCost": 5,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20334,6 +22479,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20359,6 +22507,9 @@
       "keywords": [
         "Pass"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": true,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20382,6 +22533,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20409,6 +22563,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20432,6 +22589,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20455,6 +22615,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20480,6 +22643,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20503,6 +22669,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20526,6 +22695,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20550,6 +22722,9 @@
       "manaCost": 1,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -20576,6 +22751,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20599,6 +22777,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20624,6 +22805,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20647,6 +22831,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20671,6 +22858,9 @@
       "manaCost": 1,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -20697,6 +22887,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20720,6 +22913,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20743,6 +22939,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "timewarped"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": true,
@@ -20767,6 +22966,9 @@
       "manaCost": 1,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "timewarped"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -20793,6 +22995,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20818,6 +23023,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20841,6 +23049,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20864,6 +23075,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20890,6 +23104,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20917,6 +23134,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20942,6 +23162,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20965,6 +23188,9 @@
       "healthGold": 0,
       "manaCost": 5,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -20997,6 +23223,9 @@
       "healthGold": 0,
       "manaCost": 3,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21029,6 +23258,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21052,6 +23284,9 @@
       "healthGold": 0,
       "manaCost": 6,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21077,6 +23312,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "battlecruiser"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21104,6 +23342,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21127,6 +23368,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21152,6 +23396,9 @@
       "healthGold": 0,
       "manaCost": 4,
       "keywords": [],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21177,6 +23424,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "tavern"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21199,6 +23449,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21225,6 +23478,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21247,6 +23503,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21269,6 +23528,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21291,6 +23553,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21313,6 +23578,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21335,6 +23603,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21357,6 +23628,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21386,6 +23660,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21410,6 +23687,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21432,6 +23712,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21457,6 +23740,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21481,6 +23767,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21504,6 +23793,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -21529,6 +23821,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21552,6 +23847,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -21577,6 +23875,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21599,6 +23900,9 @@
       "healthGold": 0,
       "manaCost": 1,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21621,6 +23925,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21752,6 +24059,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -21882,6 +24192,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22012,6 +24325,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22042,6 +24358,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22066,6 +24385,9 @@
       "keywords": [
         "Refresh"
       ],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22088,6 +24410,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22114,6 +24439,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22139,6 +24467,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22164,6 +24495,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22189,6 +24523,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22212,6 +24549,9 @@
       "manaCost": 0,
       "keywords": [
         "Rally"
+      ],
+      "categories": [
+        "darkgift"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -22240,6 +24580,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22262,6 +24605,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22284,6 +24630,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22308,6 +24657,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22330,6 +24682,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22352,6 +24707,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22376,6 +24734,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22402,6 +24763,9 @@
       "keywords": [
         "Rally"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22424,6 +24788,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22446,6 +24813,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22470,6 +24840,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22492,6 +24865,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22520,6 +24896,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22544,6 +24923,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22566,6 +24948,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22588,6 +24973,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22614,6 +25002,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22636,6 +25027,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22659,6 +25053,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -22684,6 +25081,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22706,6 +25106,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22729,6 +25132,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22753,6 +25159,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22781,6 +25190,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22803,6 +25215,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22825,6 +25240,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22849,6 +25267,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22871,6 +25292,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22898,6 +25322,9 @@
       "keywords": [
         "Stealth"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22921,6 +25348,9 @@
       "manaCost": 0,
       "keywords": [
         "Choose One"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -22952,6 +25382,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -22975,6 +25408,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23001,6 +25437,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23025,6 +25464,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23049,6 +25491,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23072,6 +25517,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -23098,6 +25546,9 @@
         "Divine Shield",
         "Windfury"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23120,6 +25571,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23142,6 +25596,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23165,6 +25622,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23188,6 +25648,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -23213,6 +25676,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23237,6 +25703,9 @@
       "keywords": [
         "Immune"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23259,6 +25728,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23281,6 +25753,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23305,6 +25780,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23327,6 +25805,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23349,6 +25830,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23376,6 +25860,9 @@
       "healthGold": 0,
       "manaCost": 2,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23406,6 +25893,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23428,6 +25918,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23450,6 +25943,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23477,6 +25973,9 @@
       "keywords": [
         "Deathrattle"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23499,6 +25998,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23527,6 +26029,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23549,6 +26054,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23574,6 +26082,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23598,6 +26109,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23620,6 +26134,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23643,6 +26160,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -23668,6 +26188,9 @@
       "keywords": [
         "Reborn"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23690,6 +26213,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23716,6 +26242,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23738,6 +26267,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23762,6 +26294,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -23798,6 +26333,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23821,6 +26359,9 @@
       "manaCost": 3,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -23846,6 +26387,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23868,6 +26412,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23890,6 +26437,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23912,6 +26462,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23935,6 +26488,9 @@
       "manaCost": 0,
       "keywords": [
         "Secret"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -23960,6 +26516,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -23984,6 +26543,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24008,6 +26570,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24030,6 +26595,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24053,6 +26621,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24078,6 +26649,9 @@
       "keywords": [
         "End of Turn"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24100,6 +26674,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24122,6 +26699,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24150,6 +26730,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24172,6 +26755,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24194,6 +26780,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24216,6 +26805,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24238,6 +26830,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24260,6 +26855,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24282,6 +26880,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24304,6 +26905,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24327,6 +26931,9 @@
       "manaCost": 0,
       "keywords": [
         "Venomous"
+      ],
+      "categories": [
+        "darkgift"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -24352,6 +26959,9 @@
       "keywords": [
         "Start of Combat"
       ],
+      "categories": [
+        "darkgift"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24375,6 +26985,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -24402,6 +27015,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -24451,6 +27067,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24497,6 +27116,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -24545,6 +27167,9 @@
       "keywords": [
         "Secret"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24567,6 +27192,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "spellcraft"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24590,6 +27218,9 @@
       "manaCost": 0,
       "keywords": [
         "Discover"
+      ],
+      "categories": [
+        "other"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -24615,6 +27246,9 @@
       "keywords": [
         "Discover"
       ],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24638,6 +27272,9 @@
       "manaCost": 0,
       "keywords": [
         "Pass"
+      ],
+      "categories": [
+        "spellcraft"
       ],
       "isDuosOnly": true,
       "isSolosOnly": false,
@@ -24664,6 +27301,9 @@
       "healthGold": 0,
       "manaCost": 0,
       "keywords": [],
+      "categories": [
+        "other"
+      ],
       "isDuosOnly": false,
       "isSolosOnly": false,
       "isTimewarped": false,
@@ -24687,6 +27327,9 @@
       "manaCost": 0,
       "keywords": [
         "Start of Combat"
+      ],
+      "categories": [
+        "darkgift"
       ],
       "isDuosOnly": false,
       "isSolosOnly": false,
