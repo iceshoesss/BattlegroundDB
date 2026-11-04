@@ -170,6 +170,9 @@ class Program
                 ManaCost = card.ManaCost,
                 Armor = card.Armor,
                 Keywords = card.Keywords ?? new List<string>(),
+                // hsbg.cards 的分类标签（如 "darkgift"、"token"）。下游（卡牌浏览器）靠它
+                // 识别黑暗之赐等机制，不再依赖上游已不再收录的 BG36_MidGameEffect_000。
+                Categories = card.Categories,
                 IsDuosOnly = card.IsDuosOnly,
                 IsSolosOnly = card.IsSolosOnly,
                 IsTimewarped = card.IsTimewarped,
@@ -408,6 +411,9 @@ public class HsbgCard
     [JsonPropertyName("keywords")]
     public List<string>? Keywords { get; set; }
 
+    [JsonPropertyName("categories")]
+    public List<string>? Categories { get; set; }
+
     [JsonPropertyName("isDuosOnly")]
     public bool IsDuosOnly { get; set; }
 
@@ -519,6 +525,10 @@ public class BgdbCard
 
     [JsonPropertyName("keywords")]
     public List<string> Keywords { get; set; } = new();
+
+    // null 时不写进 JSON（DefaultIgnoreCondition = WhenWritingNull），避免给所有卡加空数组
+    [JsonPropertyName("categories")]
+    public List<string>? Categories { get; set; }
 
     [JsonPropertyName("isDuosOnly")]
     public bool IsDuosOnly { get; set; }
