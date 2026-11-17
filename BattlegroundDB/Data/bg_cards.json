@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "37.0.2",
-    "fetchedAt": "2026-11-04T08:59:57.346Z",
-    "totalCards": 1466
+    "fetchedAt": "2026-11-17T02:18:30.651Z",
+    "totalCards": 1467
   },
   "cards": [
     {
@@ -40588,6 +40588,34 @@
       "pool": true,
       "childIds": [],
       "trinketTier": "greater",
+      "isToken": false,
+      "isBuddy": false
+    },
+    {
+      "id": 111417,
+      "cardId": "BG30_MagicItem_962",
+      "name": "Training Certificate",
+      "nameZh": "参训证书",
+      "textZh": "<b>战斗开始时：</b>使你攻击力最低的两个随从的属性值翻倍。",
+      "cardType": "trinket",
+      "minionType": "Dragon",
+      "minionTypes": [
+        "Dragon"
+      ],
+      "attack": 0,
+      "health": 0,
+      "attackGold": 0,
+      "healthGold": 0,
+      "manaCost": 4,
+      "keywords": [
+        "Start of Combat"
+      ],
+      "isDuosOnly": false,
+      "isSolosOnly": false,
+      "isTimewarped": false,
+      "pool": true,
+      "childIds": [],
+      "trinketTier": "lesser",
       "isToken": false,
       "isBuddy": false
     },
