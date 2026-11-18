@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "37.0.2",
-    "fetchedAt": "2026-11-17T02:18:30.651Z",
-    "totalCards": 1467
+    "version": "37.0.3",
+    "fetchedAt": "2026-11-18T01:29:54.684Z",
+    "totalCards": 1466
   },
   "cards": [
     {
@@ -11562,7 +11562,7 @@
       "name": "Snarky Shark",
       "nameZh": "尖利的鲨鱼",
       "textZh": "当你出售本随从时，<b>刷新</b>酒馆且其中有一个鱼饵，并使你最左边的野兽攻击该鱼饵。",
-      "tier": 4,
+      "tier": 5,
       "cardType": "minion",
       "minionType": "Beast",
       "minionTypes": [
@@ -34756,7 +34756,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [
         "End of Turn"
       ],
@@ -34979,7 +34979,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -35227,7 +35227,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 6,
+      "manaCost": 7,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -35259,7 +35259,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 3,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36161,7 +36161,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36298,7 +36298,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -36523,36 +36523,6 @@
       "pool": true,
       "childIds": [],
       "trinketTier": "greater",
-      "isToken": false,
-      "isBuddy": false
-    },
-    {
-      "id": 133695,
-      "cardId": "BG36_MagicItem_812",
-      "name": "Emergency Gearblade",
-      "nameZh": "应急锯刃",
-      "textZh": "在你的回合结束时，对你最左边的机械施放维修作业。",
-      "cardType": "trinket",
-      "minionType": "Mech",
-      "minionTypes": [
-        "Mech"
-      ],
-      "attack": 0,
-      "health": 0,
-      "attackGold": 0,
-      "healthGold": 0,
-      "manaCost": 0,
-      "keywords": [
-        "End of Turn"
-      ],
-      "isDuosOnly": false,
-      "isSolosOnly": false,
-      "isTimewarped": false,
-      "pool": true,
-      "childIds": [
-        133711
-      ],
-      "trinketTier": "lesser",
       "isToken": false,
       "isBuddy": false
     },
@@ -36861,7 +36831,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -37595,7 +37565,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [
         "Start of Combat"
       ],
@@ -37875,7 +37845,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 3,
       "keywords": [
         "Spellcraft"
       ],
@@ -38496,7 +38466,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 2,
       "keywords": [
         "Aura"
       ],
@@ -38727,7 +38697,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -39193,7 +39163,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 1,
       "keywords": [
         "Discover"
       ],
@@ -39542,7 +39512,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -39653,7 +39623,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 0,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -39892,7 +39862,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 1,
       "keywords": [
         "Discover"
       ],
@@ -39920,7 +39890,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -40002,7 +39972,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 5,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -40057,7 +40027,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 6,
+      "manaCost": 7,
       "keywords": [
         "Start of Combat"
       ],
@@ -40578,7 +40548,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 5,
+      "manaCost": 6,
       "keywords": [
         "Aura"
       ],
@@ -40606,7 +40576,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 4,
+      "manaCost": 5,
       "keywords": [
         "Start of Combat"
       ],
@@ -40804,7 +40774,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 4,
       "keywords": [
         "Spellcraft"
       ],
@@ -40860,7 +40830,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 1,
+      "manaCost": 0,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -40883,7 +40853,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 2,
+      "manaCost": 1,
       "keywords": [],
       "isDuosOnly": false,
       "isSolosOnly": false,
@@ -41036,7 +41006,7 @@
       "health": 0,
       "attackGold": 0,
       "healthGold": 0,
-      "manaCost": 3,
+      "manaCost": 5,
       "keywords": [
         "End of Turn"
       ],
